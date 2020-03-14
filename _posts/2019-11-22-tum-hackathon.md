@@ -3,7 +3,7 @@ title: "Allianz Insurance Challenge at the TU München Hackathon"
 published: true
 ---
 
-What a fantastic energy as I presented the Allianz Insurance challenge to over 300 [Technische Universität München](https://www.tum.de/en/) students for the 2019 [HackaTUM](https://hack.tum.de/) event!
+What fantastic energy as I presented the Allianz Insurance challenge to over 300 [Technische Universität München](https://www.tum.de/en/) students for the 2019 [HackaTUM](https://hack.tum.de/) event!
 
 Here is my pitch for the challenge [Benjamin Klepper](https://github.com/bklppr) of my team and I came up with to move insurance from "react and respond" to "predict and prevent" using thousands of historical claim damage images from the [Allianz Center for Technology](https://www.agcs.allianz.com/services/allianz-center-for-technology.html)
 
