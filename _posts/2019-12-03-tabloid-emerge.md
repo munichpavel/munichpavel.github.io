@@ -1,5 +1,5 @@
 ---
-title: "Fixing messy tablular-like data with AI at the eMerge developers' conference"
+title: "Fixing messy table-like data with AI at the eMerge developers' conference"
 published: true
 ---
 
