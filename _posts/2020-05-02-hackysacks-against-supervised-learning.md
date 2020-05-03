@@ -2,7 +2,7 @@
 title: "Covid-19 Boredom: Hackysacks + Open Ended Algorithms vs Supervised Learning"
 published: true
 ---
-![crocheted-footbag](https://commons.wikimedia.org/wiki/File:Hacky.jpg)
+![crocheted-footbag](https://upload.wikimedia.org/wikipedia/commons/e/e2/Hacky.jpg)
 
 I used to be suspicious of claims that supervised learning is the wrong way towards general artificial intelligence, like this [DeepMind post](https://deepmind.com/blog/article/unsupervised-learning) claiming that humans actually learn by unsupervised learning more than supervised. In their words, the distinction is one of learning with (supervised) or without (unsupervised) a specific task in mind. The authors cite toddlers and Ludwig Wittgenstein's "language games" to bolster their arguments, but on both accounts I would disagree.
 
