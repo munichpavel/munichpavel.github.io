@@ -1,5 +1,5 @@
 ---
-title: "Covid-19 Boredom: Hackysacks + Open Ended Algorithms vs Supervised Learning"
+title: "COVID-19 Boredom: Hackysacks + Open Ended Algorithms vs Supervised Learning"
 published: true
 ---
 <a title="No machine-readable author provided. Esv assumed (based on copyright claims). / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)" href="https://commons.wikimedia.org/wiki/File:Hacky.jpg"><img width="256" alt="Hacky" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Hacky.jpg/512px-Hacky.jpg"></a>
