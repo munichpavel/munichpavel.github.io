@@ -3,7 +3,7 @@ title: "fake-data-for-learning on PyPI"
 published: true
 ---
 
-My [package-in-the-making](2020-02-20-risk-ai-workshop) to create interesting fake data for machine and human learning is 'in-the-making' no more! Now you can start using it from [PyPI](https://pypi.org/project/fake-data-for-learning/) with `pip install fake-data-for-learning`.
+My [package-in-the-making](2020-02-20-risk-ai-workshop) [fake-data-for-learning](https://github.com/munichpavel/fake-data-for-learning) to create interesting fake data for machine and human learning is 'in-the-making' no more! Now you can start using it from [PyPI](https://pypi.org/project/fake-data-for-learning/) with `pip install fake-data-for-learning`.
 
 ## The Easy Part
 
