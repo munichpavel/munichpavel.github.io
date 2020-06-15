@@ -1,5 +1,5 @@
 ---
-title: "US Expat Taxes Made Less Painful with `expat-fatcat`"
+title: "US expat taxes made less painful with `expat-fatcat`"
 published: true
 ---
 
