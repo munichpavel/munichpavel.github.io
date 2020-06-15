@@ -9,7 +9,7 @@ For me the biggest pain point used to be looking up dozens of historical FX rate
 
 Three years ago I started a small project [expact-fatcat](https://github.com/munichpavel/expat-fatcat) to automate historical FX-rate look-ups for filling out my IRS forms. This year, I put it on [PyPI](https://pypi.org/project/expat-fatcat/) to ease others' expat-FX-historical-lookup-Excel pain.
 
-## Quick start with `expat-fatcat`
+## Quick start
 
 After doing `pip install expat-fatcat`, the core functionality is historical FX rate lookup (with some smoothing).
 
