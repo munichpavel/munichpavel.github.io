@@ -5,12 +5,29 @@ published: false
 
 A number of circles are being completed by this year's workshop at the University of Ljubljana on Risk and Artificial Intelligence
 
-* The previous workshop was my last talk for non-virtual people before Covid lockdowns, and this workshop is my first post-lockdown
+* The [previous workshop](https://github.com/munichpavel/risk-ai-workshop/tree/v2020-02-uni-lj) was my last talk for non-virtual people before Covid lockdowns, and this workshop is my first post-lockdown
 * The EU's proposed [AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX\%3A52021PC0206) and the German regulator's [IT Requirements for Asset Managers](https://www.bafin.de/SharedDocs/Veroeffentlichungen/EN/Meldung/2020/meldung_2020_05_25_KAIT_en.html) connect my recent work in causality in AI and MLOps to the regulatory capital frameworks of my first workshop back in 2015.
+
+What didn't change was
+
+* the engagement and curiosity of the students in [Professor Tomaz Kosir's](https://www.fmf.uni-lj.si/~kosir/english.html) [Masters Program in Financial Mathematics](https://www.fmf.uni-lj.si/en/study-mathematics/programmes/2fima/2021/).
+The basic format stayed the same, with four lectures and accompanying example
+
+* a chance to explore topics in risk and AI that I find interesting and important
+
+
+For this year's workshop, the main topics were
+
+1. Risk, Regulation and AI, with focus on the [EU-proposed regulation on AI](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52021PC0206)
+1. How elements of discrete geometry are useful for modeling algorithms ("graphical models"), generating [interesting fake data](https://github.com/munichpavel/fake-data-for-learning), and understanding [Simpson's paradox](https://en.wikipedia.org/wiki/Simpson%27s_paradox).
+1. Why data scientists and AI practitioners should engage with causality, and not automatically settle for correlation as a proxy (spoiler alert: I give an example of getting your return-on-investment wrong if you settle for correlation)
+1. Why we need rigorous data science practices in high-risk AI like credit scoring
+
+Continue reading for more on each of these topics, plus a final takeaway conclusion.
 
 ## Risk, Regulation and AI
 
-The [first lecture](resources/ai-risk-and-discrete-geometry.pdf) goes through the well-established pattern of
+The [first lecture]() goes through the well-established pattern of
 
 <p align="center">
   <img src="resources/exuberance-crisis-regulation.png" />
