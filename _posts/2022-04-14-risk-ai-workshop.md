@@ -12,7 +12,9 @@ A number of circles are being completed by this year's workshop at the Universit
 
 The [first lecture](resources/ai-risk-and-discrete-geometry.pdf) goes through the well-established pattern of
 
-![exuberance-crisis-regulation](resources/exuberance-crisis-regulation.png)
+<p align="center">
+  <img src="resources/exuberance-crisis-regulation.png" />
+</p>
 
 starting with a brief history of financial disaster, and ending with the current crisis in AI. But what crisis? We don't have government bailouts of failed AI companies, or massive unemployment because of AI gone wrong as with financial crises.
 
