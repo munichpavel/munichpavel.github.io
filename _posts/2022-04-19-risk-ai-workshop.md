@@ -27,7 +27,7 @@ Continue reading for more on each of these topics, plus a final takeaway conclus
 
 ## Risk, Regulation and AI
 
-The [first lecture]() goes through the well-established pattern of
+The [first lecture](resources/ai-risk-and-discrete-geometry.pdf) goes through the well-established pattern of
 
 <p align="center">
   <img src="resources/exuberance-crisis-regulation.png" />
@@ -41,6 +41,17 @@ So regulators should step in and shut down high-risk AI, right? No, and here is 
 
 The EU's proposed AI Act sets out precisely this balance, recognizing both the potential for societal good as well as for crisis:
 
+## Discrete Geometry for Risk and AI
+
+The [second lecture](resources/discrete-geometry.pdf)
+
+## Correlation and Causality
+
+The [third lecture](resources/correlation-causality.pdf)
+
+## Risk and AI in Practice: Credit Scoring
+
+In the [final lecture](resources/risk-ai-practice.pdf)
 
 ## Takeaways
 
