@@ -15,11 +15,12 @@ The basic format stayed the same, with four lectures and accompanying example
 
 * a chance to explore topics in risk and AI that I find interesting and important
 
-
 For this year's workshop, the main topics were
 
 1. Risk, Regulation and AI, with focus on the [EU-proposed regulation on AI](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52021PC0206)
-1. How elements of discrete geometry are useful for modeling algorithms ("graphical models"), generating [interesting fake data](https://github.com/munichpavel/fake-data-for-learning), and understanding [Simpson's paradox](https://en.wikipedia.org/wiki/Simpson%27s_paradox).
+
+1. How elements of discrete geometry are useful for modeling algorithms ("graphical models"), generating [interesting fake data](https://github.com/munichpavel/fake-data-for-learning), and understanding [Simpson's paradox](https://en.wikipedia.org/wiki/Simpson%27s_paradox)
+
 1. Why data scientists and AI practitioners should engage with causality, and not automatically settle for correlation as a proxy (spoiler alert: I give an example of getting your return-on-investment wrong if you settle for correlation)
 1. Why we need rigorous data science practices in high-risk AI like credit scoring
 
@@ -27,7 +28,7 @@ Continue reading for more on each of these topics, plus a final takeaway conclus
 
 ## Risk, Regulation and AI
 
-The [first lecture](resources/ai-risk-and-discrete-geometry.pdf) goes through the well-established pattern of
+The [first lecture](resources/ai-risk-and-discrete-geometry.pdf) went through the well-established pattern of
 
 <p align="center">
   <img src="resources/exuberance-crisis-regulation.png" />
@@ -35,23 +36,60 @@ The [first lecture](resources/ai-risk-and-discrete-geometry.pdf) goes through th
 
 starting with a brief history of financial disaster, and ending with the current crisis in AI. But what crisis? We don't have government bailouts of failed AI companies, or massive unemployment because of AI gone wrong as with financial crises.
 
-The crisis facing us with AI is not so much a financial one, as a societal one, as [Cathy O'Neil](https://mathbabe.org/) persuasively argues. It is
+The crisis facing us with AI is not so much a financial one, as a societal one, as [Cathy O'Neil](https://mathbabe.org/) persuasively argues, with thousands of decisions being made by algorithms in high-risk areas like [educational](https://www.wired.com/story/algorithm-set-students-grades-altered-futures/) [opportunity](https://www.theverge.com/2020/8/17/21372045/uk-a-level-results-algorithm-biased-coronavirus-covid-19-pandemic-university-applications) and [access to finance](https://qz.com/1748321/the-role-of-goldman-sachs-algorithms-in-the-apple-credit-card-scandal/). When these go wrong, individuals suffer without the high profile boom of a financial crisis that makes it clear to everyone that something is amiss.
 
-So regulators should step in and shut down high-risk AI, right? No, and here is where risk management comes in. Note the name of this field is risk *management* and not risk *elimination*. As Bernadette Walters, the director of the quantitative risk modeling division of Deutsche Bank in my first post-academic job, put it, the job is risk management is to balance risk and return.
+So regulators should step in and shut down high-risk AI, right? Note the name of the field is risk *management* and not risk *elimination*. As [Bernadette Walter](https://de.linkedin.com/in/dr-bernadette-walter-7653231a)--the director of the quantitative risk modeling division of Deutsche Bank in my first post-academic job--stressed to her department, the job is risk management is to balance risk and return.
 
-The EU's proposed AI Act sets out precisely this balance, recognizing both the potential for societal good as well as for crisis:
+The EU's proposed [AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52021PC0206) sets out precisely this balance, recognizing both the potential for societal good as well as for crisis:
+
+> By improving prediction, optimising operations and resource allocation,
+and personalising service delivery, the use of artificial intelligence can support socially and environmentally beneficial outcomes and provide key competitive advantages to companies and the European economy. Such action is especially needed in high-impact sectors, including climate change, environment and health, the public sector, finance, mobility, home affairs and agriculture. However, the same elements and techniques that power the socio-economic benefits of AI can also bring about new risks or negative consequences for individuals or the society.
 
 ## Discrete Geometry for Risk and AI
 
-The [second lecture](resources/discrete-geometry.pdf)
+The [second lecture](resources/discrete-geometry.pdf) introduced graphical models, probability polytopes and the geometry of Simpson's paradox.
+
+Graphical models occupy an interesting place in this history of AI, forming a sort of bookends separating the [rules-based, expert system approaches up through the 80s](https://www.cambridge.org/core/books/modeling-and-reasoning-with-bayesian-networks/8A3769B81540EA93B525C4C2700C9DE6), and more recently the dissatisfaction with deep learning as "[curve fitting](https://www.penguinrandomhouse.com/books/565703/possible-minds-by-edited-by-john-brockman/)." A key computer scientist for both of these bookends is [Judea Pearl](http://bayes.cs.ucla.edu/jp_home.html).
+
+Though the focus was on directed graphical models, aka Bayesian Networks, I have a slide on undirected graphical models dedicated to my still favorite paper, [Graphical Models for Correlated Default](https://onlinelibrary.wiley.com/doi/10.1111/j.1467-9965.2011.00499.x), by [Bernd Sturmfels](https://math.berkeley.edu/~bernd/index.html), I.O. Filiz, X. Guo and J. Morton.
+
+The lecture material on probability polytopes also borrowed heavily from work and of Bernd Sturfmels along with his co-authors [Seth Sullivant](https://sethsullivant.wordpress.ncsu.edu/) and [Mathias Drton](https://www.professoren.tum.de/en/drton-mathias/) of [Lectures Algebraic Statistics](https://link.springer.com/book/10.1007/978-3-7643-8905-5). It's a lesson I learned during my PhD research, how good notation can convert a problem area and its solution space from opaque and complicated to transparent and straightforward.
+
+Good notation for discrete probability spaces meant that my goal of generating interesting fake data subject to expectation constraints in the python package [fake-data-for-learning](https://github.com/munichpavel/fake-data-for-learning) a matter of applying the fundamental theorem of polytopes.
+
+Of the three topics in this lecture, Simpson's paradox is both the most accessible and the most surprising. It refers to a statistical phenomenon in which a trend exists for a population (e.g. splitting results of a clinical trial into treated and untreated populations) that then disappears or even reverses in subpopulations (e.g. further splitting the treated and untreated populations according to gender).
+
+You may be wondering how machine learning algorithms deal with the strange statistics of Simpson's Paradox--and you should--but that's the topic of the final lecture :smile:.
+
+The same useful notation from probability polytopes turned getting a geometric characterization of Simpson's into a mess of scribbles over many pages in my notebooks into a system of a few quadratic equations or inequalities.
 
 ## Correlation and Causality
 
-The [third lecture](resources/correlation-causality.pdf)
+In my first courses on statistics and early work in data science, I was warned that correlation and causation aren't the same thing, but thereafter only heard about correlation-based methods. As with many things, correlation--and its fancier machine learning cousins--is so used because it 1.) is easy to calculate, and 2.) seems objective.
+
+The [third lecture](resources/correlation-causality.pdf) starts with exploring what can go wrong when blindly accepting the correlation proxy ([80% correlation annual deaths by venomous spiders and winning spelling bee word lengths](https://www.tylervigen.com/spurious-correlations) anyone?) plus a brief history of causality from Aristotle to Judea Pearl.
+
+Thanks to work by [Judea Pearl and others](http://bayes.cs.ucla.edu/PRIMER/), we can do more than complain about the inadequacies of correlation and curve-fitting. Using Pearl's do calculus, this lecture showed how a causal analysis of a problem in insurance--estimating the impact of time-to-quote on customer's acceptance or rejection of the quote--yields very different return-on-investment outlook when estimated causally compared to the more typical correlation-based estimate.
 
 ## Risk and AI in Practice: Credit Scoring
 
-In the [final lecture](resources/risk-ai-practice.pdf)
+The [final lecture](resources/risk-ai-practice.pdf) brought nearly everything from the first three together to tackle the problem of credit scoring. Based on historical data, how do we predict which customers should get a loan, and which should be rejected?
+
+Access to finance is one of the high-risk AI applications singled out not only in the AI Act, but also the EU's [General Data Protection Regulation (GDPR)]({https://www.reubenbinns.com/blog/how-to-comply-with-gdpr-article-22-automated-credit-decisions/). AI-based credit scoring has potential to [increase access to the under-financed over status quo methods](https://www.brookings.edu/research/reducing-bias-in-ai-based-financial-services/), but it also can--and [apparently has](https://qz.com/1748321/the-role-of-goldman-sachs-algorithms-in-the-apple-credit-card-scandal/)--perpetuated past inequalities.
+
+To give a simple example that both showed how to do data science properly and what can go wrong when you don't, I generated artificial credit scoring data that incorporated two of the pathologies from the previous lectures: Simpson's paradox and a [collider](https://en.wikipedia.org/wiki/Collider_(statistics)), and then created around the data set a basic CI / CD machine learning pipeline.
+
+The embedded Simpson's paradox in the dataset meant that female populations overall seemed a worse credit risk, but in each of the occupation sub-populations the female default rate was better than the male counterpart. But this wasn't enough by itself to trick the three machine learning algorithms we considered into rating women worse (with more complicated datasets relying more on regularized algorithms, you'd maybe see the algorithms getting tricked by Simpson's paradox).
+
+So I added an extra feature of `account-activity` that--in the data generating process--was a collider resulting in a high and spurious correlation between gender and default. You may think this is a cheat to put in a field with the causal direction going from target (`default`) to a field (`account-activity`), but I have come across examples of business and data collection practices that--if missed by data scientists--can product such data leakage.
+
+Maybe it wouldn't have made a difference to the students, but alongside a more traditional Jupyter notebook implementation of the model selection and training process, I implemented a basic but tested pipeline. I was curious about [Data Version Control](https://dvc.org/), and still like some features of it, but ended up focusing on a combination of old-school Git + a bash script with test coverage.
+
+We wrapped up on a definite positive note: machines won't replace the bright, dedicated minds in the lecture hall any time soon. I won't make a prediction here in print, but I don't see AI in the near future meeting the demands facing the masters students in their first job, namely to
+
+* to think deeply about the data and process you feed into your AI algorithm,
+* to think deeply about modular code design with test coverage, and
+* to think deeply about the impact of your work on society.
 
 ## Takeaways
 
