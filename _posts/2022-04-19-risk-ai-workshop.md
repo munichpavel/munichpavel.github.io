@@ -1,6 +1,6 @@
 ---
 title: "Workshop on Risk and Artificial Intelligence"
-published: false
+published: true
 ---
 
 A number of circles are being completed by this year's workshop at the University of Ljubljana on Risk and Artificial Intelligence
