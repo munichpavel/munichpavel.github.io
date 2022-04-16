@@ -3,7 +3,7 @@ title: "Workshop on Risk and Artificial Intelligence"
 published: true
 ---
 
-A number of circles are being completed by this year's workshop at the University of Ljubljana on Risk and Artificial Intelligence
+A number of circles are being completed by [this year's workshop](https://github.com/munichpavel/risk-ai-workshop/releases/tag/v2022.1.2) at the University of Ljubljana on Risk and Artificial Intelligence.
 
 * The [previous workshop](https://github.com/munichpavel/risk-ai-workshop/tree/v2020-02-uni-lj) was my last talk for non-virtual people before Covid lockdowns, and this workshop is my first post-lockdown
 * The EU's proposed [AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX\%3A52021PC0206) and the German regulator's [IT Requirements for Asset Managers](https://www.bafin.de/SharedDocs/Veroeffentlichungen/EN/Meldung/2020/meldung_2020_05_25_KAIT_en.html) connect my recent work in causality in AI and MLOps to the regulatory capital frameworks of my first workshop back in 2015.
@@ -24,7 +24,7 @@ For this year's workshop, the main topics were
 1. Why data scientists and AI practitioners should engage with causality, and not automatically settle for correlation as a proxy (spoiler alert: I give an example of getting your return-on-investment wrong if you settle for correlation)
 1. Why we need rigorous data science practices in high-risk AI like credit scoring
 
-Continue reading for more on each of these topics, plus a final takeaway conclusion.
+Continue reading for more on each of these topics, plus a final takeaway conclusion, or go straight to the [repository](https://github.com/munichpavel/risk-ai-workshop) to checkout the code examples and [published slides](https://github.com/munichpavel/risk-ai-workshop/releases).
 
 ## Risk, Regulation and AI
 
