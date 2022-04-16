@@ -115,10 +115,7 @@ The masters students showed not only the curiosity and appetite for learning you
 
 ### Rigorous practice rather than [Luddism](https://en.wikipedia.org/wiki/Luddite) for human-centered AI
 
-Sure, there will be applications of AI for which a Luddite "Don't go there" is the appropriate response, but for the examples of the workshop, rigorous practice is what ensures your AI model is compatible with the values articulated in the [EU's AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52021PC0206), such as
-
-* think deeply about your data and the process that generates it, don't outsource thinking to all-purpose algorithms
-* think deeply about causal mechanisms, since correlation is a proxy, and sometimes a dangerous one.
+Sure, there will be applications of AI for which a Luddite "Don't go there" is the appropriate response, but for the examples of the workshop, rigorous practice is what ensures your AI model is compatible with the values articulated in the [EU's AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52021PC0206).
 
 ### Modern software practices like MLOps (aka CI/CD for ML) are effective tools for managing operational risk
 
