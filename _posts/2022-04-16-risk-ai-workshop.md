@@ -28,10 +28,10 @@ Continue reading for more on each of these topics, plus a final takeaway conclus
 
 ## Risk, Regulation and AI
 
-The [first lecture](resources/ai-risk-and-discrete-geometry.pdf) went through the well-established pattern of
+The [first lecture](/assets/ai-risk-and-discrete-geometry.pdf) went through the well-established pattern of
 
 <p align="center">
-  <img src="resources/exuberance-crisis-regulation.png" />
+  <img src="/assets/exuberance-crisis-regulation.png" />
 </p>
 
 starting with a brief history of financial disaster, and ending with the current crisis in AI. But what crisis? We don't have government bailouts of failed AI companies, or massive unemployment because of AI gone wrong as with financial crises.
@@ -47,18 +47,18 @@ and personalising service delivery, the use of artificial intelligence can suppo
 
 ## Discrete Geometry for Risk and AI
 
-The [second lecture](resources/discrete-geometry.pdf) introduced graphical models, probability polytopes and the geometry of Simpson's paradox.
+The [second lecture](/assets/discrete-geometry.pdf) introduced graphical models, probability polytopes and the geometry of Simpson's paradox.
 
 Graphical models occupy an interesting place in this history of AI, forming a sort of bookends separating the [rules-based, expert system approaches up through the 80s](https://www.cambridge.org/core/books/modeling-and-reasoning-with-bayesian-networks/8A3769B81540EA93B525C4C2700C9DE6), and more recently the dissatisfaction with deep learning as "[curve fitting](https://www.penguinrandomhouse.com/books/565703/possible-minds-by-edited-by-john-brockman/)." A key computer scientist for both of these bookends is [Judea Pearl](http://bayes.cs.ucla.edu/jp_home.html).
 
 <p align="center">
-  <img src="resources/hits.png" />
+  <img src="/assets/hits.png" />
 </p>
 
 Though the focus was on directed graphical models, aka Bayesian Networks, I have a slide on undirected graphical models dedicated to my still favorite paper, [Graphical Models for Correlated Default](https://onlinelibrary.wiley.com/doi/10.1111/j.1467-9965.2011.00499.x), by [Bernd Sturmfels](https://math.berkeley.edu/~bernd/index.html), I.O. Filiz, X. Guo and J. Morton.
 
 <p align="center">
-  <img src="resources/credit_default.png" />
+  <img src="/assets/credit_default.png" />
 </p>
 
 The lecture material on probability polytopes also borrowed heavily from work and of Bernd Sturfmels along with his co-authors [Seth Sullivant](https://sethsullivant.wordpress.ncsu.edu/) and [Mathias Drton](https://www.professoren.tum.de/en/drton-mathias/) of [Lectures Algebraic Statistics](https://link.springer.com/book/10.1007/978-3-7643-8905-5). It's a lesson I learned during my PhD research, how good notation can convert a problem area and its solution space from opaque and complicated to transparent and straightforward.
@@ -75,17 +75,17 @@ The same useful notation from probability polytopes turned getting a geometric c
 
 In my first courses on statistics and early work in data science, I was warned that correlation and causation aren't the same thing, but thereafter only heard about correlation-based methods. As with many things, correlation--and its fancier machine learning cousins--is so used because it 1.) is easy to calculate, and 2.) seems objective.
 
-The [third lecture](resources/correlation-causality.pdf) starts with exploring what can go wrong when blindly accepting the correlation proxy ([80% correlation annual deaths by venomous spiders and winning spelling bee word lengths](https://www.tylervigen.com/spurious-correlations) anyone?) plus a brief history of causality from Aristotle to Judea Pearl.
+The [third lecture](/assets/correlation-causality.pdf) starts with exploring what can go wrong when blindly accepting the correlation proxy ([80% correlation annual deaths by venomous spiders and winning spelling bee word lengths](https://www.tylervigen.com/spurious-correlations) anyone?) plus a brief history of causality from Aristotle to Judea Pearl.
 
 Thanks to work by [Judea Pearl and others](http://bayes.cs.ucla.edu/PRIMER/), we can do more than complain about the inadequacies of correlation and curve-fitting. Using Pearl's do calculus, this lecture showed how a causal analysis of a problem in insurance--estimating the impact of time-to-quote on customer's acceptance or rejection of the quote--yields very different return-on-investment outlook when estimated causally compared to the more typical correlation-based estimate.
 
 <p align="center">
-  <img src="resources/do_days.png" />
+  <img src="/assets/do_days.png" />
 </p>
 
 ## Risk and AI in Practice: Credit Scoring
 
-The [final lecture](resources/risk-ai-practice.pdf) brought nearly everything from the first three together to tackle the problem of credit scoring. Based on historical data, how do we predict which customers should get a loan, and which should be rejected?
+The [final lecture](/assets/risk-ai-practice.pdf) brought nearly everything from the first three together to tackle the problem of credit scoring. Based on historical data, how do we predict which customers should get a loan, and which should be rejected?
 
 Access to finance is one of the high-risk AI applications singled out not only in the AI Act, but also the EU's [General Data Protection Regulation (GDPR)]({https://www.reubenbinns.com/blog/how-to-comply-with-gdpr-article-22-automated-credit-decisions/). AI-based credit scoring has potential to [increase access to the under-financed over status quo methods](https://www.brookings.edu/research/reducing-bias-in-ai-based-financial-services/), but it also can--and [apparently has](https://qz.com/1748321/the-role-of-goldman-sachs-algorithms-in-the-apple-credit-card-scandal/)--perpetuated past inequalities.
 
@@ -96,7 +96,7 @@ The embedded Simpson's paradox in the dataset meant that female populations over
 So I added an extra feature of `account-activity` that--in the data generating process--was a collider resulting in a high and spurious correlation between gender and default. You may think this is a cheat to put in a field with the causal direction going from target (`default`) to a field (`account-activity`), but I have come across examples of business and data collection practices that--if missed by data scientists--can product such data leakage.
 
 <p align="center">
-  <img src="resources/default-process-whole.png" />
+  <img src="/assets/default-process-whole.png" />
 </p>
 
 Maybe it wouldn't have made a difference to the students, but alongside a more traditional Jupyter notebook implementation of the model selection and training process, I implemented a basic but tested pipeline. I was curious about [Data Version Control](https://dvc.org/), and still like some features of it, but ended up focusing on a combination of old-school Git + a bash script with test coverage.
