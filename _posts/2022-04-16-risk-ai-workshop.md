@@ -96,7 +96,7 @@ The embedded Simpson's paradox in the dataset meant that female populations over
 So I added an extra feature of `account-activity` that--in the data generating process--was a collider resulting in a high and spurious correlation between gender and default. You may think this is a cheat to put in a field with the causal direction going from target (`default`) to a field (`account-activity`), but I have come across examples of business and data collection practices that--if missed by data scientists--can product such data leakage.
 
 <p align="center">
-  <img src="/assets/default-process-whole.png" width="600" height="360"/>
+  <img src="/assets/default-process-whole.png" width="600" height="400"/>
 </p>
 
 Maybe it wouldn't have made a difference to the students, but alongside a more traditional Jupyter notebook implementation of the model selection and training process, I implemented a basic but tested pipeline. I was curious about [Data Version Control](https://dvc.org/), and still like some features of it, but ended up focusing on a combination of old-school Git + a bash script with test coverage.
