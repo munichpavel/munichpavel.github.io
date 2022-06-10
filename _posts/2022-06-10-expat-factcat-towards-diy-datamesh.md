@@ -1,6 +1,6 @@
 ---
 title: "expat-fatcat 2022: towards a DIY data mesh"
-published: false
+published: true
 ---
 
 For us American expats, June 15th is when we have to file our annual tax returns (expats get a 2-month extension). This year, I decided to leave the python package [expat-fatcat](https://github.com/munichpavel/expat-fatcat) untouched, and instead spice up this year's tax filing process by starting a do-it-yourself (DIY) [data mesh](https://www.thoughtworks.com/what-we-do/data-and-ai/data-mesh) :smile:.
