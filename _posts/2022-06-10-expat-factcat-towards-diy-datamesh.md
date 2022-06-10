@@ -1,5 +1,5 @@
 ---
-title: "expat-fatcat 2022: towards a DIY data mesh
+title: "expat-fatcat 2022: towards a DIY data mesh"
 published: false
 ---
 
