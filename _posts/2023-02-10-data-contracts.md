@@ -1,11 +1,11 @@
----
-title: "Data contracts: combining people, processes and technology to better manage data exchanges in AI solutions"
-published: false
----
+# Data contracts: combining people, processes and technology to better manage data exchanges in AI solutions
+
+> <sub>The views expressed here are solely the authors', and do not represent the views of our employers.</sub>
+
 
 Complaining about data quality while developing AI solutions is a bit like complaining about politics. It feels good while you're doing it and often makes you feel smarter compared to others, but rarely results in concrete action.
 
-To move beyond complaining about data quality into action (and code), [Manlio Grillo](https://www.linkedin.com/in/manliogrillo/), [Korbinian Breitrainer](https://www.linkedin.com/in/korbinian-breitrainer-1109b6bb/) and [Paul Larsen](https://munichpavel.github.io) of Allianz SE, and [Tsuyoshi Sugubuchi](https://www.linkedin.com/in/tsuyoshi-sugibuchi/) of Allianz France began developing and testing *data contracts* between data consumers (e.g. a team developing AI solutions) and producers (e.g. a data warehouse team or a business unit with domain data for the AI solution) to better manage data exchanges between teams.
+To move beyond complaining about data quality into action (and code), [Manlio Grillo](https://www.linkedin.com/in/manliogrillo/), [Korbinian Breitrainer](https://www.linkedin.com/in/korbinian-breitrainer-1109b6bb/) and [Paul Larsen](https://munichpavel.github.io) of Allianz SE, and [Tsuyoshi Sugubuchi](https://www.linkedin.com/in/tsuyoshi-sugibuchi/) of Allianz France began developing and testing *data contracts* between data consumers (e.g. a team developing AI solutions) and producers (e.g. a data warehouse team or a business unit with domain data for the AI solution) to better manage data exchanges between teams or organizational entities.
 
 At the risk of claiming too much, we present our experience with data contracts as a [Design Pattern](https://en.wikipedia.org/wiki/Design_Patterns), where a *design pattern* describes
 
@@ -17,7 +17,6 @@ A design pattern typically consists of four parts: the pattern name ("data contr
 
 Historical note: The term "data contracts" is not new. It appears in the [.NET framework](https://learn.microsoft.com/en-us/dotnet/framework/wcf/feature-details/using-data-contracts) for server-client data exchanges, and more recently in the [substack post](https://dataproducts.substack.com/p/the-rise-of-data-contracts) in the context of data pipelines of [Chad Sanderson](https://substack.com/profile/12566999-chad-sanderson)  (and subsequent [Data Contract Battle Royale](https://www.youtube.com/watch?v=4BEpYAp3Qu4&t=1s) with [Ethan Aaron](https://www.linkedin.com/in/ethanaaron/)).
 
-Disclaimer: the views expressed here are solely the authors', and do not represent the views of our employers.
 
 ## Data contract problem space
 
@@ -28,13 +27,13 @@ Examples include:
 * A production AI pipeline fails due to upstream changes in primary key logic
 * Weeks required to train a first ML model with provided datasets due to slow, multiple iterations with data provider (missing target column, unexpected column value relationships, changes in fields delivered, changes in file format, ...)
 
-Looking at the 2nd example of initial development work on an ML model for claims, we can break the status-quo process into the following steps:
+Looking at the 2nd example of initial development work on an ML model for insurance claims, we can break the status-quo process into the following steps:
 
 1. *Agreeing on data expectations*: request data deliveries containing specified fields in a combination of emails and WebEx meetings
 
 1. *Preparing the data deliveries*: the data producer (e.g. a business unit) performs custom queries from their source systems to produce one or more tables for the fields requested
 
-1. *Transferring data deliveries*: the data producer sends the requested tables (typiclly as csv or Excel files in a first delivery, then parquet files for follow-up deliveries) to the data consumer (AI Team)
+1. *Transferring data deliveries*: the data producer sends the requested tables (typically as csv or Excel files in a first delivery, then parquet files for follow-up deliveries) to the data consumer (AI Team)
 
 1. *Searching for data expectation failures*: Data consumer (AI team) explores data deliveries in Jupyter notebooks. Failures of data expectations are found by a combination of exploratory data analysis and running code on the (new) data delivery.
 
@@ -110,12 +109,12 @@ Our target picture for data contracts is to have [odd-couple](https://en.wikiped
 
 Characteristics of an effective data expectation agreement process are
 
-1. Recognition that the process is iterative changes can be managed but not completely eliminated
+1. Recognition that the process is iterative - changes can be managed but not completely eliminated
 1. High level of transparency among stakeholders on data expectations
 
-The first point is especially important for AI Solutions, and present to a lesser degree--if not entirely missing--in other types of software. This difference arises from the highly exploratory nature of AI solutions in the early phases. Even in the more mature project phases the "learning" component of machine learning / AI means that iterating on data expectations never completely goes away.
+The first point is especially important for AI solutions, and present to a lesser degree--if not entirely missing--in other types of software. This difference arises from the highly exploratory nature of AI solutions in the early phases. Even in the more mature project phases the "learning" component of machine learning / AI means that iterating on data expectations never completely goes away.
 
-The second point is made harder by the iterative and exploratory nature of early stage AI work, but, if done well, can cut down on the iterations required. A typical situation encountered is that the Data Scientists and Engineers request of the business colleague data deliveries from (often legacy) systems from another part of the organization for some model development. The data science and engineering team does not know the legacy sources on the data producer side, and the business colleagues (including business analysts who create data extracts from legacy databases plus IT colleagues responsible for these databases) do not typically understand required data expectations for machine learning models.
+The second point is made harder by the iterative and exploratory nature of early stage AI work, but, if done well, can cut down on the iterations required. A typical situation encountered is that the Data Scientists and Engineers request of the business colleague data deliveries from (often legacy) systems from another part of the organization for some model development. The data science and engineering team does not know the legacy sources on the data producer side, and the business colleagues (including business analysts who create data extracts from legacy databases plus IT colleagues responsible for these databases) do not typically understand required data expectations for machine learning models. <mark>Consinder moving this to the top/intro - since it explains the initial challenge very well.</mark>
 
 Put bluntly, transparency on data expectations among shareholders is typically very hard. Typically the data scientists and engineers get initial deliveries from their business partners based on schema concerns (delivery file format, required fields) but not on instance concerns (reference values, nulls) or change concerns. During initial exploratory analyses and modeling, the data scientists and engineers find required data expectations that are not met, and feed this back to the business by showing plots or data sample extracts. This process results in increased transparency, but slowly and with multiple iterations required.
 
@@ -187,6 +186,6 @@ BUT, as with an open-source tooling, there is important DIY ("do-it-yourself") w
 
 ## Lessons from experience
 
-In our collective experience, there *were* data expectations and they *were* enforced somehow, but all too often the enforcement of data expectations is done implicitly, vaguely lumped together under the label “data quality.” The lack of explicit enforcement of data expectations is one main factor in the unpleasant and costly data quality surprises that we aim to avoid.
+In our collective experience, there *were* data expectations and they *were* enforced somehow, but all too often the enforcement of data expectations is done implicitly, vaguely lumped together under the label “data quality”. The lack of explicit enforcement of data expectations is one main factor in the unpleasant and costly data quality surprises that we aim to avoid.
 
-Data contracts, by combining both the human and technical concerns, provide the transparency and automation required for AI Solution teams and their business data providing counterparts to get past complaining about one another and find a dynamic equilibrium with which both sides can be reasonably happy and significantly more efficient in delivery.
+Data contracts, by combining both the human and technical concerns, provide the transparency and automation required for AI solution teams and their business data providing counterparts to get past complaining about one another and find a dynamic equilibrium with which both sides can be reasonably happy and significantly more efficient in delivery.
