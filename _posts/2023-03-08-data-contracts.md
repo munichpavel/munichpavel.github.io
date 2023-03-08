@@ -67,7 +67,7 @@ Image source: author's own, as with other pencil drawings below.
 
 Why Trojan Horse? Because the convenience of data producers sending data deliverables (e.g. CSV or Excel extracts) without any agreement about data expectations typically leads to unpleasant, costly surprises for the AI solution team.
 
-<p align="center"; title="Adam Jones from Kelowna, BC, Canada, CC BY-SA 2.0 &lt;https://creativecommons.org/licenses/by-sa/2.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Replica_of_Trojan_Horse_-_Canakkale_Waterfront_-_Dardanelles_-_Turkey_(5747677790).jpg">
+<p align="center" title="Adam Jones from Kelowna, BC, Canada, CC BY-SA 2.0 &lt;https://creativecommons.org/licenses/by-sa/2.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Replica_of_Trojan_Horse_-_Canakkale_Waterfront_-_Dardanelles_-_Turkey_(5747677790).jpg">
   <img width="256" alt="Replica of Trojan Horse - Canakkale Waterfront - Dardanelles - Turkey (5747677790)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Replica_of_Trojan_Horse_-_Canakkale_Waterfront_-_Dardanelles_-_Turkey_%285747677790%29.jpg/256px-Replica_of_Trojan_Horse_-_Canakkale_Waterfront_-_Dardanelles_-_Turkey_%285747677790%29.jpg">
 </p>
 
@@ -84,7 +84,7 @@ On the opposite end, the Gandalf and the Balrog anti-pattern leads to an initial
 
 For example, accepting only [highly normalized data deliveries](https://en.wikipedia.org/wiki/Database_normalization) will help the downstream data engineer ensure the integrity of all deliverables, but will likely wear down the data producers patience, sending both parties down into a fiery abyss.
 
-<p align="center";">
+<p align="center">
   <img width="256" src="https://i.pinimg.com/originals/27/9b/0c/279b0c676bda5bfaf783e6683e38651b.png">
 </p>
 
@@ -98,7 +98,7 @@ Our target picture for data contracts is to have [odd-couple](https://en.wikiped
   <img src="/assets/producer-happy-consumer-happy.png" />
 </p>
 
-<p align="center";">
+<p align="center">
   <img width="512" src="https://screenrant.com/wp-content/uploads/2017/02/Guardians-of-the-Galaxy-Baby-Groot-and-Drax.jpg">
 </p>
 
