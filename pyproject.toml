@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mp-blog"
+version = "0.1.0"
+description = "Package for munichpavel blog posts"
+authors = ["Paul Larsen <munichpavel@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "mp_blog"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
