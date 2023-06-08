@@ -4,3 +4,7 @@
 _site/
 Gemfile.lock
 **/.ruby-version
+
+# local dev
+_*.ipynb
+*.env*

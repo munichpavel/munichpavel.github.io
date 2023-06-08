@@ -1,0 +1,12 @@
+generate_parent_module: openai
+generate_object: ChatCompletion
+generate_method: create
+model_version: gpt-3.5-turbo-0301
+model_params:
+  temperature: 0
+response_parser_parent_module: mp_blog.llm_utils
+response_parser_method: openai_chat_completion_parser
+context: ???
+question: ???
+answer_format: ???
+template: ???

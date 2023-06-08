@@ -1,0 +1,19 @@
+{
+  "contexts": [
+    "Quelle: https://www.dsv.de/schwimmen/wettkampf-national/bestenlisten/\n\nAuswahl\nGeschlecht:\nM\tW\tX\nBahn:\n25m\t50m\nStrecke:\n\n100m Schmetterling\nZeitbereich:\n\nSaison 2018/2019\nAltersklasse:\n\nAK 40 - JG 1974 - 1978\nPunkte:\n\nFINA 2022 (25m)\nRegion:\n\nDeutschland\n\n\n25 Eintr\u00e4ge\nSuche\nDeutscher Rekord: 0:51,19 von Steffen Deibler (Hamburger SC r.V. von 1879) am 28.04.2013\nPlatz\tSchwimmer\tJG\tVerein\tZeit\tPunkte\tOrt\tDatum\n1\tThomas Ehrhardt\t1977\tSSKC Poseidon Aschaffenburg\t1:01,64\t465\tGwangju\t8/2019\n2\tJochen Kaminski\t1974\tSSF Bonn 05\t1:03,91\t417\tKarlsruhe\t6/2019\n3\tPaul Larsen\t1977\tTSV Haar\t1:05,01\t397\tKranj\t9/2018\n4\tSebastian Kratzenstein\t1978\tBSC Robben\t1:05,21\t393\tKarlsruhe\t6/2019\n5\tTorben Kritzer\t1977\tBad Homburger SC 1927\t1:05,64\t385\tKarlsruhe\t6/2019\n6\tRalf Hildebrandt\t1978\tDresdner SC 1898\t1:06,13\t377\tRiesa\t5/2019\n7\tMatthias Michaelsen\t1977\tSG B\u00f6hmetal\t1:06,47\t371\tBraunschweig\t3/2019\n8\tLars Kellermann\t1974\tSG Badenweiler-Neuenburg\t1:07,07\t361\tKarlsruhe\t6/2019\n9\tChristian Hylla\t1978\tSSF Bonn 05\t1:07,60\t353\tKamen\t6/2019\n10\tKieran Garbutt\t1976\tSV Bayreuth\t1:08,48\t339\tPappenheim\t7/2019\n\n\nQuelle: https://www.dsv.de/schwimmen/wettkampf-national/bestenlisten/\n\nAuswahl\nGeschlecht:\nM\tW\tX\nBahn:\n25m\t50m\nStrecke:\n\n100m Schmetterling\nZeitbereich:\n\nSaison 2019/2020\nAltersklasse:\n\nAK 40 - JG 1975 - 1979\nPunkte:\n\nFINA 2022 (25m)\nRegion:\n\nDeutschland\n\n\n2 Eintr\u00e4ge\nSuche\nDeutscher Rekord: 0:51,19 von Steffen Deibler (Hamburger SC r.V. von 1879) am 28.04.2013\nPlatz\tSchwimmer\tJG\tVerein\tZeit\tPunkte\tOrt\tDatum\n1\tRalf Hildebrandt\t1978\tDresdner SC 1898\t1:05,66\t385\tDresden\t12/2019\n2\tIvo Rudolph\t1978\tSV Gr\u00fcn-Wei\u00df Wittenberg\t1:12,48\t286\tDresden\t12/2019\n",
+    ""
+  ],
+  "questions": [
+    "Was waren die top 5 Zeiten Deutschlands der Saison zwischen 2018 und 2020 der M\u00e4nner auf 100m Schmetterling im Altersklasse 40-44?",
+    "Was waren die top 5 Zeiten Deutschlands der Saison zwischen 2018 und 2020 der Maenner auf 100m Schmetterling im Altersklasse 40-44?",
+    "What were the top 5 times in Germany between 2018 and 2020 for men in the 100m butterfly for the age group 40-44?"
+  ],
+  "answer_formats": [
+    "Return a json document with keys `Platz, Schwimmer, JG, Verein, Zeit, Punkte, Ort, Datum`.",
+    "Return only a json document as a list entries with keys `Platz, Schwimmer, JG, Verein, Zeit, Punkte, Ort, Datum`."
+  ],
+  "templates": [
+    "Context: {context}\n\nQuestion: {question}\n\nAnswer format: {answer_format}\n\nAnswer:\n",
+    "Context: \n\n\n{context}\n\nQuestion: {question}\n\nAnswer format: {answer_format}\n\nAnswer:\n"
+  ]
+}
