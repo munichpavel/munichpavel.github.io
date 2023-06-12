@@ -1,0 +1,25 @@
+generate_parent_module: openai
+generate_object: ChatCompletion
+generate_method: create
+model_version: gpt-3.5-turbo-0301
+model_params:
+  temperature: 0
+response_parser_parent_module: mp_blog.llm_utils
+response_parser_method: openai_chat_completion_parser
+context: ''
+question: What were the top 5 times in Germany between 2018 and 2020 for men in the
+  100m butterfly for the age group 40-44?
+answer_format: Return only a json document as a list entries with keys `Platz, Schwimmer,
+  JG, Verein, Zeit, Punkte, Ort, Datum`.
+template: 'Context: {context}
+
+
+  Question: {question}
+
+
+  Answer format: {answer_format}
+
+
+  Answer:
+
+  '

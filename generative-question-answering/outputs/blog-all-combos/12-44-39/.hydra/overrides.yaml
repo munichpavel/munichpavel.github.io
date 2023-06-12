@@ -1,0 +1,17 @@
+- +context=""
+- +question="Was waren die top 5 Zeiten Deutschlands der Saison zwischen 2018 und
+  2020 der Männer auf 100m Schmetterling im Altersklasse 40-44?"
+- +answer_format="Return only a json document as a list entries with keys `Platz,
+  Schwimmer, JG, Verein, Zeit, Punkte, Ort, Datum`."
+- '+template="Context: {context}
+
+
+  Question: {question}
+
+
+  Answer format: {answer_format}
+
+
+  Answer:
+
+  "'

@@ -1,0 +1,222 @@
+hydra:
+  run:
+    dir: outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  sweep:
+    dir: multirun/${now:%Y-%m-%d}/${now:%H-%M-%S}
+    subdir: ${hydra.job.num}
+  launcher:
+    _target_: hydra._internal.core_plugins.basic_launcher.BasicLauncher
+  sweeper:
+    _target_: hydra._internal.core_plugins.basic_sweeper.BasicSweeper
+    max_batch_size: null
+    params: null
+  help:
+    app_name: ${hydra.job.name}
+    header: '${hydra.help.app_name} is powered by Hydra.
+
+      '
+    footer: 'Powered by Hydra (https://hydra.cc)
+
+      Use --hydra-help to view Hydra specific help
+
+      '
+    template: '${hydra.help.header}
+
+      == Configuration groups ==
+
+      Compose your configuration from those groups (group=option)
+
+
+      $APP_CONFIG_GROUPS
+
+
+      == Config ==
+
+      Override anything in the config (foo.bar=value)
+
+
+      $CONFIG
+
+
+      ${hydra.help.footer}
+
+      '
+  hydra_help:
+    template: 'Hydra (${hydra.runtime.version})
+
+      See https://hydra.cc for more info.
+
+
+      == Flags ==
+
+      $FLAGS_HELP
+
+
+      == Configuration groups ==
+
+      Compose your configuration from those groups (For example, append hydra/job_logging=disabled
+      to command line)
+
+
+      $HYDRA_CONFIG_GROUPS
+
+
+      Use ''--cfg hydra'' to Show the Hydra config.
+
+      '
+    hydra_help: ???
+  hydra_logging:
+    version: 1
+    formatters:
+      simple:
+        format: '[%(asctime)s][HYDRA] %(message)s'
+    handlers:
+      console:
+        class: logging.StreamHandler
+        formatter: simple
+        stream: ext://sys.stdout
+    root:
+      level: INFO
+      handlers:
+      - console
+    loggers:
+      logging_example:
+        level: DEBUG
+    disable_existing_loggers: false
+  job_logging:
+    version: 1
+    formatters:
+      simple:
+        format: '[%(asctime)s][%(name)s][%(levelname)s] - %(message)s'
+    handlers:
+      console:
+        class: logging.StreamHandler
+        formatter: simple
+        stream: ext://sys.stdout
+      file:
+        class: logging.FileHandler
+        formatter: simple
+        filename: ${hydra.runtime.output_dir}/${hydra.job.name}.log
+    root:
+      level: INFO
+      handlers:
+      - console
+      - file
+    disable_existing_loggers: false
+  env: {}
+  mode: RUN
+  searchpath: []
+  callbacks: {}
+  output_subdir: .hydra
+  overrides:
+    hydra:
+    - hydra.job.chdir=True
+    - hydra.mode=RUN
+    task:
+    - "+context=\"Quelle: https://www.dsv.de/schwimmen/wettkampf-national/bestenlisten/\n\
+      \nAuswahl\nGeschlecht:\nM\tW\tX\nBahn:\n25m\t50m\nStrecke:\n\n100m Schmetterling\n\
+      Zeitbereich:\n\nSaison 2018/2019\nAltersklasse:\n\nAK 40 - JG 1974 - 1978\n\
+      Punkte:\n\nFINA 2022 (25m)\nRegion:\n\nDeutschland\n\n\n25 Einträge\nSuche\n\
+      Deutscher Rekord: 0:51,19 von Steffen Deibler (Hamburger SC r.V. von 1879) am\
+      \ 28.04.2013\nPlatz\tSchwimmer\tJG\tVerein\tZeit\tPunkte\tOrt\tDatum\n1\tThomas\
+      \ Ehrhardt\t1977\tSSKC Poseidon Aschaffenburg\t1:01,64\t465\tGwangju\t8/2019\n\
+      2\tJochen Kaminski\t1974\tSSF Bonn 05\t1:03,91\t417\tKarlsruhe\t6/2019\n3\t\
+      Paul Larsen\t1977\tTSV Haar\t1:05,01\t397\tKranj\t9/2018\n4\tSebastian Kratzenstein\t\
+      1978\tBSC Robben\t1:05,21\t393\tKarlsruhe\t6/2019\n5\tTorben Kritzer\t1977\t\
+      Bad Homburger SC 1927\t1:05,64\t385\tKarlsruhe\t6/2019\n6\tRalf Hildebrandt\t\
+      1978\tDresdner SC 1898\t1:06,13\t377\tRiesa\t5/2019\n7\tMatthias Michaelsen\t\
+      1977\tSG Böhmetal\t1:06,47\t371\tBraunschweig\t3/2019\n8\tLars Kellermann\t\
+      1974\tSG Badenweiler-Neuenburg\t1:07,07\t361\tKarlsruhe\t6/2019\n9\tChristian\
+      \ Hylla\t1978\tSSF Bonn 05\t1:07,60\t353\tKamen\t6/2019\n10\tKieran Garbutt\t\
+      1976\tSV Bayreuth\t1:08,48\t339\tPappenheim\t7/2019\n\n\nQuelle: https://www.dsv.de/schwimmen/wettkampf-national/bestenlisten/\n\
+      \nAuswahl\nGeschlecht:\nM\tW\tX\nBahn:\n25m\t50m\nStrecke:\n\n100m Schmetterling\n\
+      Zeitbereich:\n\nSaison 2019/2020\nAltersklasse:\n\nAK 40 - JG 1975 - 1979\n\
+      Punkte:\n\nFINA 2022 (25m)\nRegion:\n\nDeutschland\n\n\n2 Einträge\nSuche\n\
+      Deutscher Rekord: 0:51,19 von Steffen Deibler (Hamburger SC r.V. von 1879) am\
+      \ 28.04.2013\nPlatz\tSchwimmer\tJG\tVerein\tZeit\tPunkte\tOrt\tDatum\n1\tRalf\
+      \ Hildebrandt\t1978\tDresdner SC 1898\t1:05,66\t385\tDresden\t12/2019\n2\tIvo\
+      \ Rudolph\t1978\tSV Grün-Weiß Wittenberg\t1:12,48\t286\tDresden\t12/2019\n\""
+    - +question="Was waren die top 5 Zeiten Deutschlands der Saison zwischen 2018
+      und 2020 der Maenner auf 100m Schmetterling im Altersklasse 40-44?"
+    - +answer_format="Return only a json document as a list entries with keys `Platz,
+      Schwimmer, JG, Verein, Zeit, Punkte, Ort, Datum`."
+    - '+template="Context: {context}
+
+
+      Question: {question}
+
+
+      Answer format: {answer_format}
+
+
+      Answer:
+
+      "'
+  job:
+    name: main
+    chdir: true
+    override_dirname: "+answer_format=\"Return only a json document as a list entries\
+      \ with keys `Platz, Schwimmer, JG, Verein, Zeit, Punkte, Ort, Datum`.\",+context=\"\
+      Quelle: https://www.dsv.de/schwimmen/wettkampf-national/bestenlisten/\n\nAuswahl\n\
+      Geschlecht:\nM\tW\tX\nBahn:\n25m\t50m\nStrecke:\n\n100m Schmetterling\nZeitbereich:\n\
+      \nSaison 2018/2019\nAltersklasse:\n\nAK 40 - JG 1974 - 1978\nPunkte:\n\nFINA\
+      \ 2022 (25m)\nRegion:\n\nDeutschland\n\n\n25 Einträge\nSuche\nDeutscher Rekord:\
+      \ 0:51,19 von Steffen Deibler (Hamburger SC r.V. von 1879) am 28.04.2013\nPlatz\t\
+      Schwimmer\tJG\tVerein\tZeit\tPunkte\tOrt\tDatum\n1\tThomas Ehrhardt\t1977\t\
+      SSKC Poseidon Aschaffenburg\t1:01,64\t465\tGwangju\t8/2019\n2\tJochen Kaminski\t\
+      1974\tSSF Bonn 05\t1:03,91\t417\tKarlsruhe\t6/2019\n3\tPaul Larsen\t1977\tTSV\
+      \ Haar\t1:05,01\t397\tKranj\t9/2018\n4\tSebastian Kratzenstein\t1978\tBSC Robben\t\
+      1:05,21\t393\tKarlsruhe\t6/2019\n5\tTorben Kritzer\t1977\tBad Homburger SC 1927\t\
+      1:05,64\t385\tKarlsruhe\t6/2019\n6\tRalf Hildebrandt\t1978\tDresdner SC 1898\t\
+      1:06,13\t377\tRiesa\t5/2019\n7\tMatthias Michaelsen\t1977\tSG Böhmetal\t1:06,47\t\
+      371\tBraunschweig\t3/2019\n8\tLars Kellermann\t1974\tSG Badenweiler-Neuenburg\t\
+      1:07,07\t361\tKarlsruhe\t6/2019\n9\tChristian Hylla\t1978\tSSF Bonn 05\t1:07,60\t\
+      353\tKamen\t6/2019\n10\tKieran Garbutt\t1976\tSV Bayreuth\t1:08,48\t339\tPappenheim\t\
+      7/2019\n\n\nQuelle: https://www.dsv.de/schwimmen/wettkampf-national/bestenlisten/\n\
+      \nAuswahl\nGeschlecht:\nM\tW\tX\nBahn:\n25m\t50m\nStrecke:\n\n100m Schmetterling\n\
+      Zeitbereich:\n\nSaison 2019/2020\nAltersklasse:\n\nAK 40 - JG 1975 - 1979\n\
+      Punkte:\n\nFINA 2022 (25m)\nRegion:\n\nDeutschland\n\n\n2 Einträge\nSuche\n\
+      Deutscher Rekord: 0:51,19 von Steffen Deibler (Hamburger SC r.V. von 1879) am\
+      \ 28.04.2013\nPlatz\tSchwimmer\tJG\tVerein\tZeit\tPunkte\tOrt\tDatum\n1\tRalf\
+      \ Hildebrandt\t1978\tDresdner SC 1898\t1:05,66\t385\tDresden\t12/2019\n2\tIvo\
+      \ Rudolph\t1978\tSV Grün-Weiß Wittenberg\t1:12,48\t286\tDresden\t12/2019\n\"\
+      ,+question=\"Was waren die top 5 Zeiten Deutschlands der Saison zwischen 2018\
+      \ und 2020 der Maenner auf 100m Schmetterling im Altersklasse 40-44?\",+template=\"\
+      Context: {context}\n\nQuestion: {question}\n\nAnswer format: {answer_format}\n\
+      \nAnswer:\n\""
+    id: ???
+    num: ???
+    config_name: config
+    env_set: {}
+    env_copy: []
+    config:
+      override_dirname:
+        kv_sep: '='
+        item_sep: ','
+        exclude_keys: []
+  runtime:
+    version: 1.3.2
+    version_base: '1.3'
+    cwd: /Users/paullarsen/work/projects/munichpavel.github.io/generative-question-answering
+    config_sources:
+    - path: hydra.conf
+      schema: pkg
+      provider: hydra
+    - path: /Users/paullarsen/work/projects/munichpavel.github.io/generative-question-answering
+      schema: file
+      provider: main
+    - path: ''
+      schema: structured
+      provider: schema
+    output_dir: /Users/paullarsen/work/projects/munichpavel.github.io/generative-question-answering/outputs/2023-06-13/11-03-12
+    choices:
+      hydra/env: default
+      hydra/callbacks: null
+      hydra/job_logging: default
+      hydra/hydra_logging: default
+      hydra/hydra_help: default
+      hydra/help: default
+      hydra/sweeper: basic
+      hydra/launcher: basic
+      hydra/output: default
+  verbose: false

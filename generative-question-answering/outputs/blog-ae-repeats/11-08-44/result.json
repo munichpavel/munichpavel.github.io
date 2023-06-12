@@ -1,0 +1,55 @@
+{
+  "data_contract_success": true,
+  "response": [
+    {
+      "Platz": 1,
+      "Schwimmer": "Thomas Ehrhardt",
+      "JG": 1977,
+      "Verein": "SSKC Poseidon Aschaffenburg",
+      "Zeit": "1:01,64",
+      "Punkte": 465,
+      "Ort": "Gwangju",
+      "Datum": "8/2019"
+    },
+    {
+      "Platz": 2,
+      "Schwimmer": "Jochen Kaminski",
+      "JG": 1974,
+      "Verein": "SSF Bonn 05",
+      "Zeit": "1:03,91",
+      "Punkte": 417,
+      "Ort": "Karlsruhe",
+      "Datum": "6/2019"
+    },
+    {
+      "Platz": 3,
+      "Schwimmer": "Paul Larsen",
+      "JG": 1977,
+      "Verein": "TSV Haar",
+      "Zeit": "1:05,01",
+      "Punkte": 397,
+      "Ort": "Kranj",
+      "Datum": "9/2018"
+    },
+    {
+      "Platz": 4,
+      "Schwimmer": "Sebastian Kratzenstein",
+      "JG": 1978,
+      "Verein": "BSC Robben",
+      "Zeit": "1:05,21",
+      "Punkte": 393,
+      "Ort": "Karlsruhe",
+      "Datum": "6/2019"
+    },
+    {
+      "Platz": 5,
+      "Schwimmer": "Torben Kritzer",
+      "JG": 1977,
+      "Verein": "Bad Homburger SC 1927",
+      "Zeit": "1:05,64",
+      "Punkte": 385,
+      "Ort": "Karlsruhe",
+      "Datum": "6/2019"
+    }
+  ]
+}

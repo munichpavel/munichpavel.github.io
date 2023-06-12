@@ -8,3 +8,4 @@ Gemfile.lock
 # local dev
 _*.ipynb
 *.env*
+.DS_Store/

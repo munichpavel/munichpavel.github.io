@@ -1,0 +1,17 @@
+- +context=""
+- +question="What were the top 5 times in Germany between 2018 and 2020 for men in
+  the 100m butterfly for the age group 40-44?"
+- +answer_format="Return a json document with keys `Platz, Schwimmer, JG, Verein,
+  Zeit, Punkte, Ort, Datum`."
+- '+template="Context: {context}
+
+
+  Question: {question}
+
+
+  Answer format: {answer_format}
+
+
+  Answer:
+
+  "'

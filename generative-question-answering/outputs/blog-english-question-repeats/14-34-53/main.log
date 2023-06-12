@@ -1,0 +1,4 @@
+[2023-06-13 14:34:53,930][__main__][INFO] - Creating prompt
+[2023-06-13 14:34:54,038][__main__][INFO] - Calling model
+[2023-06-13 14:35:32,334][__main__][INFO] - Response fails data contract
+[2023-06-13 14:35:32,335][__main__][INFO] - Writing results to /Users/paullarsen/work/projects/munichpavel.github.io/generative-question-answering/outputs/2023-06-13/14-34-53/result.json

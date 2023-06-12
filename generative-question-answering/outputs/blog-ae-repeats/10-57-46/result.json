@@ -1,0 +1,4 @@
+{
+  "data_contract_success": false,
+  "response": "[\n  {\n    \"Platz\": \"1\",\n    \"Schwimmer\": \"Ralf Hildebrandt\",\n    \"JG\": \"1978\",\n    \"Verein\": \"Dresdner SC 1898\",\n    \"Zeit\": \"1:05,66\",\n    \"Punkte\": \"385\",\n    \"Ort\": \"Dresden\",\n    \"Datum\": \"12/2019\"\n  },\n  {\n    \"Platz\": \"2\",\n    \"Schwimmer\": \"Ivo Rudolph\",\n    \"JG\": \"1978\",\n    \"Verein\": \"SV Gr\u00fcn-Wei\u00df Wittenberg\",\n    \"Zeit\": \"1:12,48\",\n    \"Punkte\": \"286\",\n    \"Ort\": \"Dresden\",\n    \"Datum\": \"12/2019\"\n  }\n]"
+}
