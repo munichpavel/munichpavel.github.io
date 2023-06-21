@@ -138,7 +138,7 @@ In this section, we highlight which syntax variants of the template, context, qu
 
 ### Successful prompt syntax example
 
-As mentioned, by success I mean the LLM-service returns records and data types as in the above json-document. Of the combinations created from variants [https://github.com/munichpavel/munichpavel.github.io/generative-question-answering/prompt_variants.json](), the only one that results in the expected response has context template as above, with context consisting of the copy-pasted relevant results from [https://www.dsv.de/schwimmen/wettkampf-national/bestenlisten/](https://www.dsv.de/schwimmen/wettkampf-national/bestenlisten/), and question and answer-format as follows:
+As mentioned, by success I mean the LLM-service returns records and data types as in the above json-document. Of the combinations created from variants [https://github.com/munichpavel/munichpavel.github.io/generative-question-answering/prompt_variants.json](https://github.com/munichpavel/munichpavel.github.io/blob/517be3ddc1346669886dd8102242888193431f58/generative-question-answering/prompt_variants.json), the only one that results in the expected response has context template as above, with context consisting of the copy-pasted relevant results from [https://www.dsv.de/schwimmen/wettkampf-national/bestenlisten/](https://www.dsv.de/schwimmen/wettkampf-national/bestenlisten/), and question and answer-format as follows:
 
 * `question`: "Was waren die top 5 Zeiten Deutschlands der Saison zwischen 2018 und 2020 der Männer auf 100m Schmetterling im Altersklasse 40-44?"
 * `answer_format`: "Return only a json document as a list entries with keys `Platz, Schwimmer, JG, Verein, Zeit, Punkte, Ort, Datum`."
@@ -240,7 +240,7 @@ The section headings describing failure modes use the language "Failure due to .
 
 ## Appendix: Serializing and managing prompt variants
 
-Ever since a project with Matthias Ossadnik a few years back, followed by work with the data validation framework Great Expectations, I have been a fan of generating config using Jupyter notebooks. I used the notebook [https://github.com/munichpavel/munichpavel.github.io/generative-question-answering/notebooks/generate-prompt-variants.ipynb](https://github.com/munichpavel/munichpavel.github.io/generative-question-answering/notebooks/generate-prompt-variants.ipynb) to generate the prompt variant components analyzed here.
+Ever since a project with Matthias Ossadnik a few years back, followed by work with the data validation framework Great Expectations, I have been a fan of generating config using Jupyter notebooks. I used the notebook [https://github.com/munichpavel/munichpavel.github.io/generative-question-answering/notebooks/generate-prompt-variants.ipynb](https://github.com/munichpavel/munichpavel.github.io/blob/dd8c014a5ea9d5928c659db6039ee3f9ef953315/generative-question-answering/notebooks/generate-prompt-variants.ipynb) to generate the prompt variant components analyzed here.
 
 You may be wondering why I chose JSON over YAML for the prompt variants. JSON is a data format with a relatively simple specification. So while it’s not as human-readable as YAML, you are unlikely to get nasty surprises, and when it comes to natural language syntax configuration, there is enough potential for unexpected behavior that you shouldn’t have to wonder how data serialization might contribute.
 
@@ -249,4 +249,4 @@ I chose to version-control the json prompt variants, which is not a bad choice f
 1. audit trail: this can be accomplished in your pipline on the left (version control) or on the right (persisting experiment artifacts)
 2. diffs: recognizing an added space or removed " around text is not something you want to have to catch by eye, so be sure you have some diff tooling to recognize changes.
 
-On the 2nd point, I use the standard library difflib in the notebook [https://github.com/munichpavel/munichpavel.github.io/generative-question-answering/notebooks/evaluate.ipynb](https://github.com/munichpavel/munichpavel.github.io/generative-question-answering/notebooks/evaluate.ipynb) for making explicit what differs between prompt variations.
+On the 2nd point, I use the standard library difflib in the notebook [https://github.com/munichpavel/munichpavel.github.io/generative-question-answering/notebooks/evaluate.ipynb](https://github.com/munichpavel/munichpavel.github.io/blob/dd8c014a5ea9d5928c659db6039ee3f9ef953315/generative-question-answering/notebooks/evaluate.ipynb) for making explicit what differs between prompt variations.
