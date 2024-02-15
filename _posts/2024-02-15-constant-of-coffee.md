@@ -5,7 +5,9 @@ published: true
 
 In my 10+ years working in industry, I have worked in 18 different offices, four different companies, two different countries. Many things have changed; my work coffee every morning has not.
 
-![morning-work-coffee](../assets/2024-02-15-full-mug.JPG)
+<p align="center">
+  <img src="/assets/2024-02-15-full-mug.JPG" width="500"/>
+</p>
 
 Thank you, Portfolio Modeling team, DB Risk Berlin, for the coffee press and Star Wars mug that have been a constant through the many years and changes.
 
