@@ -1,5 +1,5 @@
 ---
-title: "Many offices, two countries, one coffee setup"
+title: "18 offices, two countries, one coffee setup"
 published: true
 ---
 
