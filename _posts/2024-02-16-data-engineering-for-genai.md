@@ -20,7 +20,7 @@ Let's take the main example of how I've used GenAI with customers over the past 
 
 Over the next weeks I'll be sharing my experiences and learnings in a series about Data Engineering for and with GenAI. The (working) titles for these posts are
 
-1. [LMOps: Prompts just blew up your configuration space (and what to do about it)](https://munichpavel.github.io/2023/06/21/llm-ops-configuration-explosion/)
+1. [LMOps: Prompts just blew up your configuration space (and what to do about it)](https://munichpavel.github.io/2023/06/21/llm-ops-configuration-explosion/) (caveat: more ML engineering than data engineering)
 2. GenAI needs [data contracts](https://munichpavel.github.io/2023/03/08/data-contracts/)
 3. Relational databases can tame GenAI volatility
 
