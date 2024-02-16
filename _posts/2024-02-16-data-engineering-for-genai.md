@@ -1,9 +1,16 @@
 ---
-title: "Data Engineering for and with GenAI"
+title: "Data Engineering for and with GenAI: A Journey of Peaks and Potholes"
 published: true
 ---
 
-When talking about the recent excitement around GenAI and especially large language models, relating it to the common experience of Google search seems to help.
+The utility of ChatGPT and its first cousins (e.g. Copilot like offerings) is relatively clear. Two examples are
+
+1. [A BCG study together with the business schools of Harvard, MIT and the University of Pennsylvania found an average 40% productivity boost using GPT-4 on ideation and content creation tasks](https://www.bcg.com/publications/2023/how-people-create-and-destroy-value-with-gen-ai), and
+2. [Github Copilot's claim of 55% productivity gains for 95 test developers on a Javascript task](https://github.blog/2022-09-07-research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/).
+
+Now a driving question is how else we can generate value with generative AI (GenAI)? Data engineering and especially data extraction is one area we will explore in a series of blog posts.
+
+But first, let's take a step back and consider what a next step for GenAI could look like. When talking about the recent excitement around GenAI and especially large language models, relating it to the common experience of Google search seems to help.
 
 Google search's goal is to give you a **selection of useful answers** per question or search task. ChatGPT's goal is to give you a **single useful answer** per question or task. The next step in AI---and our focus in this blog post---is to give you a **single useful action** per task. (Credits to [Ben Thompson of Stratechery](https://stratechery.com/2023/googles-true-moonshot/) for this basic progression.)
 
@@ -12,7 +19,7 @@ Getting from a ChatGPT or other-provided useful answer to a useful action involv
 * removing the guard-rails of the human-in-the-loop user as quality-assurance (QA) agent
 * removing the bottle-neck of the human-in-the-loop user as QA agent
 
-In a series of blog posts we'll look at generative AI (GenAI) is changing data engineering, and how data engineering needs to adapt to harness the benefits without exploding your data stack.
+In this series of blog posts we'll look at how GenAI is changing data engineering, and how data engineering needs to adapt to harness the benefits without exploding your data quality.
 
 Let's take the main example of how I've used GenAI with customers over the past half year: extracting structured data from semi- or unstructured source data, such as PDF reports or invoices. My main take-away is
 
