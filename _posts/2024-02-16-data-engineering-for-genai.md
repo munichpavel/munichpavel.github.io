@@ -25,16 +25,17 @@ Let's take the main example of how I've used GenAI with customers over the past 
 
 > GenAI-powered data extraction means higher dev velocity and higher data risk.
 
-Over the next weeks I'll be sharing my experiences and learnings in a series about Data Engineering for and with GenAI. The (working) titles for these posts are
+The (working) titles for these posts are
 
-1. [LMOps: Prompts just blew up your configuration space (and what to do about it)](https://munichpavel.github.io/2023/06/21/llm-ops-configuration-explosion/) (caveat: more ML engineering than data engineering)
-2. GenAI needs [data contracts](https://munichpavel.github.io/2023/03/08/data-contracts/)
+1. [LMOps: Prompts just blew up your configuration space (and what to do about it)](https://munichpavel.github.io/2023/06/21/llm-ops-configuration-explosion/) (caveat: more ML engineering than data engineering),
+2. GenAI needs [data contracts](https://munichpavel.github.io/2023/03/08/data-contracts/), and
 3. Relational databases can tame GenAI volatility
-
 
 Underlying these recommendations is what can be called a *barbell strategy*. In the original context of financial investments, Nassim Taleb defines it as follows:
 
-> If you know that you are vulnerable to prediction errors, and accept that most risk measures are flawed, then your strategy is to be as hyper-conservative and hyper-aggressive as you can be, instead of being mildly aggressive or conservative. [Source: *The Black Swan*, Nassim Nicholas Taleb](https://www.penguinrandomhouse.com/books/176226/the-black-swan-second-edition-by-nassim-nicholas-taleb/)
+> If you know that you are vulnerable to prediction errors, and accept that most risk measures are flawed, then your strategy is to be as hyper-conservative and hyper-aggressive as you can be, instead of being mildly aggressive or conservative.
+
+[Source: *The Black Swan*, Nassim Nicholas Taleb](https://www.penguinrandomhouse.com/books/176226/the-black-swan-second-edition-by-nassim-nicholas-taleb/)
 
 Coming back to tech and GenAI the message is: Go wild technically with all that GenAI enables (going wild ethically is still a no-no), but clamp down the rest of your data pipelines.
 
