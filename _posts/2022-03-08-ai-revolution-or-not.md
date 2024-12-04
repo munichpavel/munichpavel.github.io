@@ -5,11 +5,19 @@ published: true
 
 Companies engaging with artificial intelligence (AI) occupy an unenviable position in the trajectory of science and technology: they sit in the middle of an AI revolution that promises to disrupt the way businesses operate just as Galileo’s revolution in the 17th century upended the earth-centered view of the universe. It is only a matter of years before the human-like or better performance achieved by deep learning on vision and text-based tasks will expand to most other human tasks, resulting in automation on an unprecedented scale. 
 
-[![Sidereus, nuncius magna longeqve admirabilia spectacula... Wellcome L0072633](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Sidereus%2C_nuncius_magna_longeqve_admirabilia_spectacula..._Wellcome_L0072633.jpg/256px-Sidereus%2C_nuncius_magna_longeqve_admirabilia_spectacula..._Wellcome_L0072633.jpg?20141020213656)](https://commons.wikimedia.org/wiki/File:Sidereus,_nuncius_magna_longeqve_admirabilia_spectacula..._Wellcome_L0072633.jpg "See page for author, CC BY 4.0 <https://creativecommons.org/licenses/by/4.0>, via Wikimedia Commons")
+<div align="center">
+  <a href="https://commons.wikimedia.org/wiki/File:Sidereus,_nuncius_magna_longeqve_admirabilia_spectacula..._Wellcome_L0072633.jpg" title="See page for author, CC BY 4.0 <https://creativecommons.org/licenses/by/4.0>, via Wikimedia Commons">
+    <img width="256" alt="Sidereus, nuncius magna longeqve admirabilia spectacula... Wellcome L0072633" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Sidereus%2C_nuncius_magna_longeqve_admirabilia_spectacula..._Wellcome_L0072633.jpg/256px-Sidereus%2C_nuncius_magna_longeqve_admirabilia_spectacula..._Wellcome_L0072633.jpg?20141020213656">
+  </a>
+</div>
 
 Or not. Perhaps instead the warning signs—such as fatalities involving autonomous driving \[1, 2, 3, 4\], the proliferation of “adversarial examples” showing best-in- class deep learning models mistaking fox squirrels for sea lions and dragonflies for manhole covers with 99% confidence \[5\], and the concerns that China’s deployed AI may not pay the bills of the computer chips it runs on \[6\]—show that we are in an AI “winter” rather than revolution \[7, 8\]. Perhaps the latest headlines about AI successes in natural language processing \[9, 10, 11\], protein folding \[12\], and the video game Dota 2 \[13\] are just final parlor tricks from a circus that is already folding up its tents.
 
-[![Panorama Bled 01](https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Panorama_Bled_01.jpg/512px-Panorama_Bled_01.jpg?20130627184143)](https://commons.wikimedia.org/wiki/File:Panorama_Bled_01.jpg "Mihael Grmek, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons")
+<div align="center">
+  <a href="https://commons.wikimedia.org/wiki/File:Panorama_Bled_01.jpg" title="Mihael Grmek, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons">
+    <img width="512" alt="Panorama Bled 01" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Panorama_Bled_01.jpg/512px-Panorama_Bled_01.jpg?20130627184143">
+  </a>
+</div>
 
 This uncertainty makes it difficult for companies to decide how to engage with AI, whether investing externally in AI-powered software, services or even companies, or investing internally in teams to develop AI assets. To help busi- nesses chart a course, a critical view of other scientific revolutions provides valuable guidance.
 
