@@ -11,6 +11,8 @@ Companies engaging with artificial intelligence (AI) occupy an unenviable positi
   </a>
 </div>
 
+[Source: An illustration of the Moon from Sidereus Nuncius, published in Venice, 1610](https://commons.wikimedia.org/wiki/File:Sidereus,_nuncius_magna_longeqve_admirabilia_spectacula..._Wellcome_L0072633.jpg)
+
 Or not. Perhaps instead the warning signs—such as fatalities involving autonomous driving \[1, 2, 3, 4\], the proliferation of “adversarial examples” showing best-in- class deep learning models mistaking fox squirrels for sea lions and dragonflies for manhole covers with 99% confidence \[5\], and the concerns that China’s deployed AI may not pay the bills of the computer chips it runs on \[6\]—show that we are in an AI “winter” rather than revolution \[7, 8\]. Perhaps the latest headlines about AI successes in natural language processing \[9, 10, 11\], protein folding \[12\], and the video game Dota 2 \[13\] are just final parlor tricks from a circus that is already folding up its tents.
 
 <div align="center">
@@ -18,6 +20,8 @@ Or not. Perhaps instead the warning signs—such as fatalities involving autonom
     <img width="512" alt="Panorama Bled 01" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Panorama_Bled_01.jpg/512px-Panorama_Bled_01.jpg?20130627184143">
   </a>
 </div>
+
+[Source: Panorama of Lake Bled](https://commons.wikimedia.org/wiki/File:Panorama_Bled_01.jpg)
 
 This uncertainty makes it difficult for companies to decide how to engage with AI, whether investing externally in AI-powered software, services or even companies, or investing internally in teams to develop AI assets. To help busi- nesses chart a course, a critical view of other scientific revolutions provides valuable guidance.
 
