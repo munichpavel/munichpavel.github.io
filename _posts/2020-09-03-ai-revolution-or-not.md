@@ -27,7 +27,7 @@ This uncertainty makes it difficult for companies to decide how to engage with A
 
 In the classic Structures of Scientific Revolutions, Thomas Kuhn coined the phrase “paradigm shift” to distinguish between two regimes of scientific development: normal and revolutionary. In normal science, the scientific community largely agrees on priorities and questions, and focuses on improvements of existing models. Revolutionary science, however, is characterized by throwing existing rules and metrics out the window. In business terms, a decision in a normal regime might be deciding on new procurement software, for which established cost-benefit analyses and service-level-agreements help to choose one among many options. An example of a revolutionary business decision might be choosing an AI-powered insurance claim fraud solution, where months of time and many tens of thousands of dollars can be spent on a “proof of concept” before knowing whether an AI solution has even a chance to work.
 
-Kuhn’s views on scientific revolutions businesses with two main lessons.
+Kuhn’s views on scientific revolutions provide businesses with two main lessons:
 
 1. Opposing sides of a scientific revolution disagree on what the most im- portant questions are, with revolutionaries casting skeptics’ critiques as research problems.  
 2. Scientific revolutions seem to be won in triumphant episodes, but are often sealed in the mundane.
