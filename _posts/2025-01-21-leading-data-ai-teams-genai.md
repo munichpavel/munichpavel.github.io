@@ -3,6 +3,8 @@ title: How GenAI has (and hasn't) changed the way Allianz, ThoughtWorks and Outb
 published: false
 ---
 
+> This blog post was originally published at [mkdev.me/]().
+
 If you take the vendor and media hype at face value, GenAI is a game changer for how data and AI teams work. What does GenAI mean in practice for those of us leading data or AI teams? On one extreme, there [won't be any more data or AI teams](https://x.com/klarnaseb/status/1876093526280171699), as they will be replaced by non-technical managers (human or otherwise) orchestrating a swarm of GenAI code-bots.
 
 The other extreme view is that GenAI is mostly a distraction, as
@@ -44,7 +46,7 @@ She sees GenAI unlocking a significant opportunity in data governance, e.g. with
 
 Both Emily and Pinar's teams both have overwhelmingly positive experiences with the GenAI technique Retrieval Augmented Generation, in which a Large Language Model isn't just given a task to complete, but also relevant background context as provided by a retrieval step, often from non-public data sources. Of GenAI techniques and patterns, Retrieval Augmented Generation is perhaps the most mature, having already moved to an "Adopt" recommendation in [ThoughtWork's April, 2024 Technology Radar](https://www.thoughtworks.com/radar/techniques/retrieval-augmented-generation-rag).
 
-Despite these new opportunities and ways of workings, our experts don't see GenAI supplanting most of what they do. For example, GenAI will not replace the proprietary AI behind the ad-tech algorithms of Andraž Tori's teams at Outbrain any time soon. Why? Their content-recommendation algorithms have to run while a website such as [Handelsblatt](https://www.handelsblatt.com) or [CNN](https://edition.cnn.com) is loading, meaning their models have to give a prediction in a few milliseconds, something GenAI cannot at present manage.
+Despite these new opportunities and ways of workings, our experts don't see GenAI supplanting most of what they do. For example, GenAI will not replace the proprietary AI behind the ad-tech algorithms of Andraž Tori's teams at Outbrain any time soon. Why? Their content-recommendation algorithms have to run while a website such as [Handelsblatt](https://www.handelsblatt.com) or [CNN](https://edition.cnn.com) is loading, meaning their models have to give a prediction in a few milliseconds, something GenAI cannot at present manage. Heuristically, the current speed needs translate could only be met by a neural network that’s no deeper than 10 layers or so, otherwise response times are too slow. The full GPT-3 model from back in 2020 is approximately [10x this size](https://arxiv.org/pdf/2005.14165).
 
 GenAI can even make important aspects of AI development harder, for example, evaluation of output quality. There are ways to coax GenAI to give outputs that can be exactly verified as correct or not, but the greatest strength and still most common usage of Large Language Models is to give free-form text as its output. Free form text is, by nature, more difficult to evaluate for correctness. If you don't believe me, just ask any teacher.
 
@@ -86,4 +88,8 @@ In our experts' experience, as well as ours at [mkdev](https://mkdev.me), GenAI 
 
 Behind the exuberance, maybe even hallucinations, of vendors and tech-hypers there are significant benefits to trialling and adopting new opportunities and ways-of-working that GenAI advances open up. Ignoring these mean your teams will get left behind.
 
-If you'd like help reaping the benefits while avoiding the pitfalls of GenAI for your data or AI teams, please reach out to me at paul@mkdev.me or our sales team at sales@mkdev.me.
+If you'd like help reaping the benefits while avoiding the pitfalls of GenAI for your data or AI teams, please reach out to me at paul@mkdev.me or our sales team at team@mkdev.me.
+
+### Acknowledgements
+
+In addition to our amazing experts, I'd like to thank [Blaz Mramor](https://www.linkedin.com/in/blaz-mramor-93058967/) for technical background about real-time bidding.
