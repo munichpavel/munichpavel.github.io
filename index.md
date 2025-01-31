@@ -8,16 +8,13 @@ classes:
 sidebar: false
 
 feature_row:
-  - alt: "placeholder image 1"
-    title: "Jump-start your data + AI innovation?"
+  - title: "Jump-start your data + AI innovation?"
     excerpt: "Get immediate value from my playbooks developed at startups and large corporates to accelerate and de-risk your innovation work."
 
-  - alt: "placeholder image 2"
-    title: "Solve hard problems?"
-    excerpt: "Is your team stuck or moving too slowly on some tough data or AI work? "
+  - title: "Solve hard problems?"
+    excerpt: "I built up and led an Allianz Insurance team that got other data science teams unstuck on hard problems of data quality, platform engineering, and much more."
     
-  - alt: "placeholder image 2"
-    title: "Get stuff done?"
+  - title: "Just get stuff done?"
     excerpt: "With 10+ years of experience in almost all aspects of data + AI, I can extend your team's over-stretched capacity."
 
 ---
@@ -32,10 +29,5 @@ feature_row:
 
 {% include feature_row %}
 
-{% 
-    include figure 
-    popup=true 
-    image_path="/assets/images/2019-paul-hackatum-circle.png"
-    alt="Paul Larsen at HackaTUM 2019" 
-    title="Paul Larsen at HackaTUM 2019"
-%}
+
+![Paul Larsen at HackaTUM 2019](/assets/images/2019-paul-hackatum-circle-small.png "Paul Larsen at HackaTUM 2019"){: .align-center }
