@@ -14,7 +14,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: paul-larsen-data-ai
+title: paul-larsen-data-ai.com
 email: paul.larsen.sp@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I help you succeed with nearly all things data and AI. Need help jump-starting your data + AI innovation? Get immediate value from my playbooks developed at startups and large corporates to accelerate and de-risk your innovation work. Stuck on hard problems? Or just need stuff done beyond what your in-house capacity can manage? With 10+ years of experience in almost all aspects of data + AI, I can help your team do more, faster and better.
@@ -34,6 +34,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 include:
   - _pages
   - assets/css/custom.css
+  - _data/navigation.yml
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -71,6 +72,16 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/munichpavel"
+
+header:
+  nav:
+    - title: "Home"
+      url: /
+    - title: "Blog"
+      url: /posts/
+    - title: "About"
+      url: /about/
+
 footer:
   links:
     - label: "LinkedIn"
