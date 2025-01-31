@@ -1,58 +1,106 @@
-layout: sidebar
-style: light
+# Welcome to Jekyll!
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: paul-larsen-data-ai.com
+email: paul.larsen.sp@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  I help you succeed with nearly all things data and AI. Need help jump-starting your data + AI innovation? Get immediate value from my playbooks developed at startups and large corporates to accelerate and de-risk your innovation work. Stuck on hard problems? Or just need stuff done beyond what your in-house capacity can manage? With 10+ years of experience in almost all aspects of data + AI, I can help your team do more, faster and better.
+github_username: munichpavel
+minimal_mistakes_skin: default
+search: true
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+#paginate: 5 # amount of posts to show
+#paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+  - _pages
+  - assets/css/custom.css
+  - _data/navigation.yml
+  - _includes/projects.html
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Plugins (previously gems:)
 plugins:
-  - jekyll-octicons
-  - jekyll-github-metadata
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
   - jemoji
+  - jekyll-include-cache
+  - jekyll-octicons
 
-permalink: /:year/:month/:day/:title/
+header:
+  nav:
+    - title: "Home"
+      url: /
+    - title: "Blog"
+      url: /posts/
+    - title: "About"
+      url: /about/
+
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/paul-larsen/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/munichpavel"
 
 defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts"
+  # _posts
+  - scope:
+      path: ""
+      type: posts
     values:
-      layout: "post"
+      layout: single
+      author_profile: false
+      read_time: true
+      show_date: true
+      comments: false
+      share: false
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
 
-projects:
-  sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
-  limit: 9
-  exclude:
-    archived: false
-    forks: true
-    projects:
-    # - repo-name
-
-social_media:
-  # behance: your_username
-  # dribbble: your_username
-  # facebook: your_username
-  # hackerrank: your_username
-  # instagram: your_username
-  # keybase: your_username
-  linkedin: paul-larsen
-  # mastodon: your_username
-  # medium: your_username
-  # stackoverflow: your_user_id
-  # telegram: your_username
-  twitter: munichpavel
-  # unsplash: your_username
-  # vk: your_username
-  # website: http://your_website_url
-  # youtube: your_username
-
-# topics:
-#   - name: CSS
-#     web_url: https://github.com/topics/css
-#     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
-
-#   - name: Web design
-
-#   - name: Sass
-#     web_url: https://github.com/topics/sass
-#     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
