@@ -33,6 +33,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
+  - assets/css/custom.css
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -66,7 +67,7 @@ author:
       url: "https://paul-larsen-data-ai.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/paullarsen"
+      url: "https://www.linkedin.com/in/paul-larsen/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/munichpavel"
@@ -74,7 +75,7 @@ footer:
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/paullarsen"
+      url: "https://www.linkedin.com/in/paul-larsen/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/munichpavel"
