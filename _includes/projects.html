@@ -1,0 +1,13 @@
+<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+  {% for repo in site.data.projects %}
+    <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+      <div class="repo-card">
+        <h3><a href="{{ repo.url }}">{{ repo.name }}</a></h3>
+        <p>{{ repo.description }}</p>
+        <p>
+          <span style="color: #66b2ff; font-size: 1.2em;">●</span> {{ repo.language }}
+        </p>
+      </div>
+    </div>
+  {% endfor %}
+</div>
