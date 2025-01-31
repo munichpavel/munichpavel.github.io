@@ -3,5 +3,7 @@ main:
     url: /
   - title: "Posts"
     url: /posts/
+  - title: "Open Source Projects"
+    url: /projects/
   - title: "Privacy & Terms of Use"
     url: /privacy-terms/
