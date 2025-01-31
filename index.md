@@ -1,24 +1,26 @@
 ---
-layout: default
+layout: splash
 title: "PAUL-LARSEN-DATA-AI.COM"
 classes: 
   - wide
   - text-center
   - landing
-sidebar: false
 
 feature_row:
-  - title: "Jump-start your data + AI innovation?"
-    excerpt: "Get immediate value from my playbooks developed at startups and large corporates to accelerate and de-risk your innovation work."
-
-  - title: "Solve hard problems?"
-    excerpt: "I built up and led an Allianz Insurance team that got other data science teams unstuck on hard problems of data quality, platform engineering, and much more."
+  - excerpt: "## Jump-start your data + AI innovation?
     
-  - title: "Just get stuff done?"
-    excerpt: "With 10+ years of experience in almost all aspects of data + AI, I can extend your team's over-stretched capacity."
+Get immediate value from my playbooks developed at startups and large corporates to accelerate and de-risk your innovation work."
+
+  - excerpt: "## Solve hard problems?
+    
+I built up and led an Allianz Insurance team that got other data science teams unstuck on hard problems of data quality, platform engineering, and much more."
+    
+  - excerpt: "## Just get stuff done? 
+  
+With 10+ years of experience in almost all aspects of data + AI, I can extend your team's over-stretched capacity."
 
 ---
-<br><br><br>
+<br>
 # PAUL-LARSEN-DATA-AI.COM
 <br>
 
@@ -31,3 +33,4 @@ feature_row:
 
 
 ![Paul Larsen at HackaTUM 2019](/assets/images/2019-paul-hackatum-circle-small.png "Paul Larsen at HackaTUM 2019"){: .align-center }
+
