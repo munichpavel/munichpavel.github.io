@@ -58,21 +58,6 @@ plugins:
   - jekyll-include-cache
   - jekyll-octicons
 
-author:
-  name   : "Paul Larsen"
-  avatar : "/assets/images/2019-paul-hackatum-circle.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://paul-larsen-data-ai.com"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/paul-larsen/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/munichpavel"
-
 header:
   nav:
     - title: "Home"
@@ -98,10 +83,11 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
+      show_date: true
       comments: false
-      share: true
+      share: false
       related: true
   # _pages
   - scope:
@@ -109,7 +95,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
 
 category_archive:
   type: liquid
