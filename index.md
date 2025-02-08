@@ -31,4 +31,14 @@ With 10+ years of experience in almost all aspects of data + AI, I can extend yo
 
 ![Paul Larsen at HackaTUM 2019](/assets/images/2019-paul-hackatum-circle-small.png "Paul Larsen at HackaTUM 2019"){: .align-center }
 
+## About me
+
+My professional ambition is to do useful stuff with mathematics and data. I moved into industry in 2013 after studying physics in the US, then mathematics and history of science at Oxford University on a Rhodes Scholarship, leading to a Dr. rer. nat. (German PhD) and postdoctoral research in mathematics and machine learning in Germany.
+
+Deutsche Bank and Allianz Insurance started me in **risk management**, both quantitative and qualitative, where I had **direct interaction with national regulators**. In 2017 I moved fully to **data science**, first leading customer engagements, then building up and leading data science teams at Allianz Insurance, followed by the same for the accounting startup Translucent. I led small, amazing teams, which meant that I still spent at least 1/3 of my time **building and deploying AI**.
+
+Since 2023 I work as a freelance data scientist and engineer, with customers in **financial services**, **non-profit organizations** and **software companies**.
+
+## Interested?
+
 {% include cta.html %}
