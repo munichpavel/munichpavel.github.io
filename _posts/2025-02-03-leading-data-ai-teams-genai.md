@@ -88,7 +88,7 @@ Behind the exuberance, maybe even hallucinations, of vendors and tech-hypers the
 
 If you'd like help reaping the benefits while avoiding the pitfalls of GenAI for your data or AI teams, please reach out to me at paul.larsen.sp@gmail.com or paul@mkdev.me.
 
-(This blog post was originally published at https://mkdev.me/posts/how-genai-has-and-hasn-t-changed-the-way-allianz-thoughtworks-and-outbrain-lead-data-and-ai-teams](https://mkdev.me/posts/how-genai-has-and-hasn-t-changed-the-way-allianz-thoughtworks-and-outbrain-lead-data-and-ai-teams).)
+(This blog post was originally published at [https://mkdev.me/posts/how-genai-has-and-hasn-t-changed-the-way-allianz-thoughtworks-and-outbrain-lead-data-and-ai-teams](https://mkdev.me/posts/how-genai-has-and-hasn-t-changed-the-way-allianz-thoughtworks-and-outbrain-lead-data-and-ai-teams](https://mkdev.me/posts/how-genai-has-and-hasn-t-changed-the-way-allianz-thoughtworks-and-outbrain-lead-data-and-ai-teams).)
 
 ### Acknowledgements
 
