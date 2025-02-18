@@ -1,9 +1,7 @@
 ---
 title: How GenAI has (and hasn't) changed the way Allianz, ThoughtWorks and Outbrain lead data and AI teams
-published: false
+published: true
 ---
-
-> This blog post was originally published at [mkdev.me/]().
 
 If you take the vendor and media hype at face value, GenAI is a game changer for how data and AI teams work. What does GenAI mean in practice for those of us leading data or AI teams? On one extreme, there [won't be any more data or AI teams](https://x.com/klarnaseb/status/1876093526280171699), as they will be replaced by non-technical managers (human or otherwise) orchestrating a swarm of GenAI code-bots.
 
@@ -88,7 +86,9 @@ In our experts' experience, as well as ours at [mkdev](https://mkdev.me), GenAI 
 
 Behind the exuberance, maybe even hallucinations, of vendors and tech-hypers there are significant benefits to trialling and adopting new opportunities and ways-of-working that GenAI advances open up. Ignoring these mean your teams will get left behind.
 
-If you'd like help reaping the benefits while avoiding the pitfalls of GenAI for your data or AI teams, please reach out to me at paul@mkdev.me or our sales team at team@mkdev.me.
+If you'd like help reaping the benefits while avoiding the pitfalls of GenAI for your data or AI teams, please reach out to me at paul.larsen.sp@gmail.com or paul@mkdev.me.
+
+(This blog post was originally published at https://mkdev.me/posts/how-genai-has-and-hasn-t-changed-the-way-allianz-thoughtworks-and-outbrain-lead-data-and-ai-teams](https://mkdev.me/posts/how-genai-has-and-hasn-t-changed-the-way-allianz-thoughtworks-and-outbrain-lead-data-and-ai-teams).)
 
 ### Acknowledgements
 
