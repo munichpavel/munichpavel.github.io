@@ -24,25 +24,18 @@ feature_row2:
     
 ## [Manlio Grillo, Head of AI Solutions, Allianz Services](https://www.linkedin.com/in/manliogrillo/)
     
-*I review tons of CVs in my job and I read "full-stack" here, "full-stack" there. 
-Close to none though covers "my stack". My stack is not only technological, but covers principles, values and strategic intent. Without these it is just worn out buzzwords.
-Paul is able to stretch to this extent without compromising on the hands-on part.*'
+*I review tons of CVs in my job and I read "full-stack" here, "full-stack" there. Close to none though covers "my stack". My stack is not only technological, but covers principles, values and strategic intent. Without these it is just worn out buzzwords. Paul is able to stretch to this extent without compromising on the hands-on part.*'
     - excerpt: "![Michele Williams LinkedIn headshot](/assets/images/mw.png 'Michele Williams LinkedIn headshot')
     
 ## [Michele Williams, Global Head of Allianz Risk Consulting](https://www.linkedin.com/in/michele-williams-6408784/)
     
-*Paul is a rare combination of data science expertise and business
-acumen. Paul was a key member of my innovation department at Allianz
-Insurance, where he built up and led the data science team. He kept
-his team focused on business value (no easy task in data science), yet
-also wholeheartedly contributed even when the task was outside of his
-team's remit, including a Kanban board he set up and ran for the whole
-department. Paul would be a valuable asset to any team or project.*"
+*Paul is a rare combination of data science expertise and business acumen. Paul was a key member of my innovation department at Allianz Insurance, where he built up and led the data science team. He kept his team focused on business value (no easy task in data science), yet also wholeheartedly contributed even when the task was outside of his
+team's remit, including an Agile management tool he set up and ran for the whole department. Paul would be a valuable asset to any team or project.*"
     - excerpt: '![Sebastian Klepper LinkedIn headshot](/assets/images/sk.png "Sebastian Klepper LinkedIn headshot")
     
 ## [Sebastian Klepper, CEO of Kognos GmbH](https://www.linkedin.com/in/sklppr/)
 
-**
+*We brought Paul into our business intelligence project to drive the development of data interfaces and analytical models. Paul went beyond handling engineering tasks by proactively taking ownership of stakeholder management, requirements engineering, and acceptance testing. His commitment and holistic approach were essential to delivering the project on time and within budget.*
 ' 
 ---
 
