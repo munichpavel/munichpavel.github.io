@@ -74,7 +74,7 @@ Why Trojan Horse? Because the convenience of data producers sending data deliver
 [Image source](https://commons.wikimedia.org/wiki/File:Replica_of_Trojan_Horse_-_Canakkale_Waterfront_-_Dardanelles_-_Turkey_(5747677790).jpg)
 
 
-### Gandalf and the Balrog / "You Cannot Pass" data contract anti-pattern
+### Gandalf and the Balrog / "You Shall Not Pass" data contract anti-pattern
 
 On the opposite end, the Gandalf and the Balrog anti-pattern leads to an initially happy downstream data consumer (data engineer or scientist) as she or he has set up an exhaustive and exhausting set of data expectations for the data producer upstream.
 
