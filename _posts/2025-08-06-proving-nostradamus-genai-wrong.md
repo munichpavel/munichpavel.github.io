@@ -1,5 +1,5 @@
 ---
-title: Proving Nostradamus wrong ... about GenAI coding?
+title: Proving Nostradamus wrong ... about GenAI coding?x
 published: true
 ---
 
@@ -7,9 +7,10 @@ I discovered [Edwin McCain](https://edwin.com)'s music on a live National Public
 
 How does Edwin McCain relate to GenAI in practice (and not just theory or hype)? In his song [30 Pieces](https://www.youtube.com/watch?v=BB6KR-1ANaM), he sings
 
->> Sometimes it drives me crazy
->>
->>Proving Nostradamus wrong.
+*Sometimes it drives me crazy*
+
+*Proving Nostradamus wrong.*
+
 
 Nostradamus was a 16th century astrologer known best for his book, [The Prophecies](https://en.wikipedia.org/wiki/Les_Prophéties), that many said correctly predicted world events.
 
