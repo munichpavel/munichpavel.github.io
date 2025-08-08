@@ -39,8 +39,10 @@ team's remit, including an Agile management tool he set up and ran for the whole
 '
 ---
 
+<div style="text-align: center;">
 {% include figure popup=true image_path="/assets/images/1024px-Triglav-cropped-tag-1b.jpg" alt="Image of Triglav with company logo overlaid" title="Andrej Jakobčič, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Triglav.jpg" %}
 <br>
+</div>
 
 # Does your company need to ...
 
