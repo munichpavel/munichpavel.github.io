@@ -1,5 +1,5 @@
 ---
-title: Proving Nostradamus wrong ... about GenAI coding?x
+title: Proving Nostradamus wrong ... about GenAI coding?
 published: true
 ---
 

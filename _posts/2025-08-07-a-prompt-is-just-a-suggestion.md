@@ -3,16 +3,16 @@ title: A GenAI prompt is a suggestion, not a rule
 published: true
 ---
 
-Two days in a row of gentle, I hope constructive, rants about the power and perils of GenAI. Yesterday it was about the often useful but [still quite low level of GenAI coding abilities in actual problems](), today it's about the general flakiness of GenAI applied to coding.
+Two days in a row of gentle, I hope constructive, rants about the power and perils of GenAI. Yesterday it was about the often useful but [still quite low level of GenAI coding abilities in actual problems]({% post_url 2025-08-06-proving-nostradamus-genai-wrong %}), today it's about the general flakiness of GenAI applied to coding.
 
 Here's the TL;DR version:
 
-> If reliability and safety matter to your business, never forget that a prompt is not a rule, it is just a suggestion.
+> If reliability and safety matter to your business, never forget that a prompt is a suggestion, not a rule.
 
-DM me if you're curious about the technical context, but the main point here is that I am playing by all of the coding GenAI rules.
+DM me if you're curious about the technical context, but the main point here is that I am playing by all of the coding GenAI recommendations.
 
 1. I've added the relevant context to the GenAI chat
-1. I've specific "rules" for how I want my code done in the correct format and in the correct place.
+1. I've specified "rules" for how I want my code done in the correct format and in the correct place.
 
 And what happens? The GenAI agent ... oops! ... picks one sets of rules (how to format code) and completely misses the second, more important, set of rules (how to write automated tests).
 
