@@ -1,5 +1,5 @@
 ---
-title: GenAI reliability and safety: A prompt is not a rule, it's a suggestion.
+title: A GenAI prompt is a suggestion, not a rule
 published: true
 ---
 
