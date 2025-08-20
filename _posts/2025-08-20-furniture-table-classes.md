@@ -1,5 +1,5 @@
 ---
-title: GenAI brainfart of the day: is a table of data really furniture?
+title: "GenAI brainfart of the day: is a table of data really furniture?"
 published: true
 ---
 
