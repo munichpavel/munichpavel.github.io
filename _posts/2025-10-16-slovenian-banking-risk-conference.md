@@ -21,3 +21,6 @@ To wrap things up, we took a detailed look at what catches the most headlines, b
 
 ![How terminator risk could arise](../assets/images/2025-10-16-terminator.png)
 
+-------------
+
+Does this post get your pulse going with excitement or hit a nerve that needs expert attention? Then reach out to me on [LinkedIn](https://www.linkedin.com/in/paul-larsen/) or email at paul.larsen.sp@gmail.com, and let's see how I can help you and your business.
