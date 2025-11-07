@@ -14,8 +14,7 @@ This isn't an anti AI rant. I work in Ai myself, both developing AI solutions an
 This is about companies like OpenAI putting out products that fail ordinary safety requirements. I will keep developing AI, especially ways to make it safe, and so should others. But when it comes to consumer products, dangerous products, AI or not, should be recalled.
 
 
-<a href="https://edition.cnn.com/2025/11/06/us/openai-chatgpt-suicide-lawsuit-invs-vis" target="_blank">
 
 ![cnn-headline](../assets/images/2025-11-06-cnn-chatgpt-suicide.png)
 
-</a>
+Source: [Rob Kuznia, Allison Gordon, Ed Levandera, CNN](https://edition.cnn.com/2025/11/06/us/openai-chatgpt-suicide-lawsuit-invs-vis)
